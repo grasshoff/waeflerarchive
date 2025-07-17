@@ -1,0 +1,443 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wäfler Nachlass Archiv</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f5f5f5;
+        }
+
+        .header {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+            font-weight: 300;
+        }
+
+        .header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1.5rem;
+            margin: 2rem 0;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 1.5rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #3498db;
+            display: block;
+        }
+
+        .stat-label {
+            color: #666;
+            margin-top: 0.5rem;
+            font-size: 0.9rem;
+        }
+
+        .search-section {
+            background: white;
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 1rem;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .search-box:focus {
+            outline: none;
+            border-color: #3498db;
+        }
+
+        .filters {
+            display: flex;
+            gap: 1rem;
+            margin: 1rem 0;
+            flex-wrap: wrap;
+        }
+
+        .filter-select {
+            padding: 0.5rem;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            min-width: 150px;
+        }
+
+        .documents-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2rem;
+            margin: 2rem 0;
+        }
+
+        .document-card {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .document-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        }
+
+        .document-image {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            background: #f8f9fa;
+            border-bottom: 1px solid #eee;
+        }
+
+        .document-content {
+            padding: 1.5rem;
+        }
+
+        .document-title {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: #2c3e50;
+            line-height: 1.3;
+        }
+
+        .document-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 1rem;
+        }
+
+        .document-meta span {
+            display: inline-block;
+            margin-right: 1rem;
+            margin-bottom: 0.3rem;
+        }
+
+        .box-label {
+            background: #3498db;
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: #666;
+        }
+
+        .error {
+            background: #e74c3c;
+            color: white;
+            padding: 1rem;
+            border-radius: 5px;
+            margin: 1rem 0;
+        }
+
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+            margin-top: 3rem;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .filter-select {
+                min-width: 100%;
+            }
+            
+            .documents-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>Wäfler Nachlass Archiv</h1>
+        <p>Digitaler Katalog der wissenschaftlichen Sammlung</p>
+    </div>
+
+    <div class="container">
+        <div class="stats-grid">
+            <div class="stat-card">
+                <span class="stat-number" id="total-docs">-</span>
+                <div class="stat-label">Dokumente</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-boxes">-</span>
+                <div class="stat-label">Boxen</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-authors">-</span>
+                <div class="stat-label">Autoren</div>
+            </div>
+            <div class="stat-card">
+                <span class="stat-number" id="total-languages">-</span>
+                <div class="stat-label">Sprachen</div>
+            </div>
+        </div>
+
+        <div class="search-section">
+            <input type="text" id="search-input" class="search-box" placeholder="Suche nach Titel, Autor, Zeitschrift...">
+            
+            <div class="filters">
+                <select id="box-filter" class="filter-select">
+                    <option value="">Alle Boxen</option>
+                </select>
+                
+                <select id="type-filter" class="filter-select">
+                    <option value="">Alle Typen</option>
+                </select>
+                
+                <select id="language-filter" class="filter-select">
+                    <option value="">Alle Sprachen</option>
+                </select>
+            </div>
+        </div>
+
+        <div id="loading" class="loading">Lade Dokumente...</div>
+        <div id="error-message" class="error" style="display: none;"></div>
+        
+        <div id="documents-container" class="documents-grid">
+            <!-- Documents will be loaded here -->
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 Wäfler Nachlass Archiv - Digitale Sammlung</p>
+        <p>Entwickelt für die wissenschaftliche Dokumentation</p>
+    </div>
+
+    <script>
+        // Configuration
+        const baseUrl = 'https://grasshoff.github.io/waeflerarchive';
+        const dataPath = './data';
+
+        // Global variables
+        let allDocuments = [];
+        let allBoxes = [];
+
+        // Load data on page load
+        document.addEventListener('DOMContentLoaded', function() {
+            loadInitialData();
+            setupEventListeners();
+        });
+
+        function setupEventListeners() {
+            document.getElementById('search-input').addEventListener('input', filterDocuments);
+            document.getElementById('box-filter').addEventListener('change', filterDocuments);
+            document.getElementById('type-filter').addEventListener('change', filterDocuments);
+            document.getElementById('language-filter').addEventListener('change', filterDocuments);
+        }
+
+        async function loadInitialData() {
+            try {
+                // Load documents data
+                const documentsResponse = await fetch(`${dataPath}/documents.json`);
+                if (!documentsResponse.ok) throw new Error('Failed to load documents');
+                
+                const documentsData = await documentsResponse.json();
+                allDocuments = documentsData.documents || [];
+
+                // Load boxes data
+                const boxesResponse = await fetch(`${dataPath}/boxes.json`);
+                if (!boxesResponse.ok) throw new Error('Failed to load boxes');
+                
+                allBoxes = await boxesResponse.json();
+
+                updateStatistics();
+                populateFilters();
+                displayDocuments(allDocuments);
+                
+                document.getElementById('loading').style.display = 'none';
+                
+            } catch (error) {
+                console.error('Error loading data:', error);
+                showError('Fehler beim Laden der Daten: ' + error.message);
+            }
+        }
+
+        function updateStatistics() {
+            const totalDocs = allDocuments.length;
+            const totalBoxes = new Set(allDocuments.map(doc => doc.box)).size;
+            const totalAuthors = new Set(allDocuments.map(doc => doc.autor).filter(a => a)).size;
+            const totalLanguages = new Set(allDocuments.map(doc => doc.sprache).filter(l => l)).size;
+
+            document.getElementById('total-docs').textContent = totalDocs;
+            document.getElementById('total-boxes').textContent = totalBoxes;
+            document.getElementById('total-authors').textContent = totalAuthors;
+            document.getElementById('total-languages').textContent = totalLanguages;
+        }
+
+        function populateFilters() {
+            // Populate box filter
+            const boxFilter = document.getElementById('box-filter');
+            const boxes = [...new Set(allDocuments.map(doc => doc.box))].filter(box => box).sort();
+            boxes.forEach(box => {
+                const option = document.createElement('option');
+                option.value = box;
+                option.textContent = box;
+                boxFilter.appendChild(option);
+            });
+
+            // Populate type filter
+            const typeFilter = document.getElementById('type-filter');
+            const types = [...new Set(allDocuments.map(doc => doc.typ))].filter(type => type).sort();
+            types.forEach(type => {
+                const option = document.createElement('option');
+                option.value = type;
+                option.textContent = type;
+                typeFilter.appendChild(option);
+            });
+
+            // Populate language filter
+            const languageFilter = document.getElementById('language-filter');
+            const languages = [...new Set(allDocuments.map(doc => doc.sprache))].filter(lang => lang).sort();
+            languages.forEach(language => {
+                const option = document.createElement('option');
+                option.value = language;
+                option.textContent = language;
+                languageFilter.appendChild(option);
+            });
+        }
+
+        function filterDocuments() {
+            const searchTerm = document.getElementById('search-input').value.toLowerCase();
+            const selectedBox = document.getElementById('box-filter').value;
+            const selectedType = document.getElementById('type-filter').value;
+            const selectedLanguage = document.getElementById('language-filter').value;
+
+            const filtered = allDocuments.filter(doc => {
+                // Search filter
+                const matchesSearch = !searchTerm || 
+                    (doc.titel && doc.titel.toLowerCase().includes(searchTerm)) ||
+                    (doc.autor && doc.autor.toLowerCase().includes(searchTerm)) ||
+                    (doc.zeitschrift && doc.zeitschrift.toLowerCase().includes(searchTerm));
+
+                // Box filter
+                const matchesBox = !selectedBox || doc.box === selectedBox;
+
+                // Type filter
+                const matchesType = !selectedType || doc.typ === selectedType;
+
+                // Language filter
+                const matchesLanguage = !selectedLanguage || doc.sprache === selectedLanguage;
+
+                return matchesSearch && matchesBox && matchesType && matchesLanguage;
+            });
+
+            displayDocuments(filtered);
+        }
+
+        function displayDocuments(documents) {
+            const container = document.getElementById('documents-container');
+            
+            if (documents.length === 0) {
+                container.innerHTML = '<div class="loading">Keine Dokumente gefunden.</div>';
+                return;
+            }
+
+            container.innerHTML = documents.map(doc => createDocumentCard(doc)).join('');
+        }
+
+        function createDocumentCard(doc) {
+            const imagePath = `${dataPath}/images/${doc.filename || 'placeholder.jpg'}`;
+            const title = doc.titel || 'Unbekannter Titel';
+            const author = doc.autor || 'Unbekannter Autor';
+            const journal = doc.zeitschrift || '';
+            const year = doc.jahr || '';
+            const type = doc.typ || '';
+            const language = doc.sprache || '';
+            const box = doc.box || '';
+
+            return `
+                <div class="document-card">
+                    <img src="${imagePath}" alt="${title}" class="document-image" 
+                         onerror="this.src='${dataPath}/images/placeholder.jpg'">
+                    <div class="document-content">
+                        <div class="document-title">${title}</div>
+                        <div class="document-meta">
+                            ${author ? `<span><strong>Autor:</strong> ${author}</span>` : ''}
+                            ${journal ? `<span><strong>Zeitschrift:</strong> ${journal}</span>` : ''}
+                            ${year ? `<span><strong>Jahr:</strong> ${year}</span>` : ''}
+                            ${type ? `<span><strong>Typ:</strong> ${type}</span>` : ''}
+                            ${language ? `<span><strong>Sprache:</strong> ${language}</span>` : ''}
+                            ${box ? `<span class="box-label">${box}</span>` : ''}
+                        </div>
+                    </div>
+                </div>
+            `;
+        }
+
+        function showError(message) {
+            const errorDiv = document.getElementById('error-message');
+            errorDiv.textContent = message;
+            errorDiv.style.display = 'block';
+            document.getElementById('loading').style.display = 'none';
+        }
+    </script>
+</body>
+</html> 

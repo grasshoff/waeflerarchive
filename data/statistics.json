@@ -1,0 +1,33 @@
+{
+  "total_documents": 632,
+  "boxes": {
+    "Box S": 135,
+    "Box22": 78,
+    "Box9": 50,
+    "BoxS4": 326,
+    "boxS2": 43
+  },
+  "document_types": {
+    "Unknown": 632
+  },
+  "languages": {
+    "de": 340,
+    "en": 170,
+    "it": 27,
+    "el": 1,
+    "la": 5,
+    "fr": 66,
+    "null": 2,
+    "tr/de": 1,
+    "tr": 9,
+    "ar": 3,
+    "nl": 2,
+    "fr, la": 1,
+    "tg": 1,
+    "ru": 1,
+    "ja": 1,
+    "pl": 2
+  },
+  "unique_authors": 581,
+  "unique_journals": 222
+}
