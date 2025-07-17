@@ -1,5 +1,5 @@
 {
-  "total": 632,
+  "total": 663,
   "documents": [
     {
       "titel": "Ein altassyrisches Königssiegel*",
@@ -8317,6 +8317,785 @@
       "filename": "Box9_document_00050.jpg",
       "image_path": "/Volumes/2025Berlin/CZURImages/Box9/Box9_document_00050.jpg",
       "_filename": "Box9_document_00050.yaml"
+    },
+    {
+      "titel": "REVUE HITTITE ET ASIANIQUE",
+      "autor": null,
+      "jahr": 1972,
+      "zeitschrift": "REVUE HITTITE ET ASIANIQUE",
+      "verlag": "ÉDITIONS KLINCKSIECK",
+      "band": "XXX",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "fr",
+      "kurzbeschreibung": "Das Dokument ist ein Sonderdruck der \"Revue hittite et asianique\" aus dem Jahr 1972. Es gehört zum Band XXX und wurde von Éditions Klincksieck herausgegeben. Der Titel deutet auf Studien im Bereich der Hethiter und asiatischer Kulturen hin.",
+      "schlagworte": [
+        "Hethiter",
+        "Asien",
+        "Revue",
+        "Linguistik",
+        "Geschichte"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:22.373566",
+        "volltext": "R.4.2.4.86?\n\nREVUE HITTITE\nET ASIANIQUE\n\nTOME XXX\n\n1972\n\nÉDITIONS KLINCKSIECK\n\n\n",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00001.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00001.jpg",
+      "_filename": "BoxP1_BoxP1_document_00001.yaml"
+    },
+    {
+      "titel": "HISTORISCH-GEOGRAPHISCHE NACHRICHTEN AUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN UND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT VOR DEM EINFALL DER GU'TAER (CA. 2200/2136)",
+      "autor": [
+        "Kammenhuber, A."
+      ],
+      "jahr": 1974,
+      "zeitschrift": "ACTA ANTIQUA ACADEMIAE SCIENTIARUM HUNGARICAE",
+      "verlag": null,
+      "band": "XXII",
+      "seiten": "1-4",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Dieser Artikel behandelt historisch-geographische Nachrichten aus alten Keilschrifttexten, insbesondere aus der alturrischen Überlieferung sowie altelamische und akkadische Inschriften. Der Fokus liegt auf der Zeit vor dem Einfall der Gutäer, etwa zwischen 2200 und 2136 v. Chr.",
+      "schlagworte": [
+        "Altes Vorderasien",
+        "Keilschrift",
+        "Geographie",
+        "Akkadische Königszeit",
+        "Gutäer"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:28.443521",
+        "volltext": "2.4. B6 ? hurzhidif.\nACTA ANTIQUA ACADEMIAE SCIENTIARUM HUNGARICAE T. XXII. FASC. 1-4.\n\nA. KAMMENHUBER\n\nHISTORISCH-GEOGRAPHISCHE NACHRICHTEN\nAUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN\nUND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT\nVOR DEM EINFALL DER GU'TAER (CA. 2200/2136)\n\n1974",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00002.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00002.jpg",
+      "_filename": "BoxP1_BoxP1_document_00002.yaml"
+    },
+    {
+      "titel": "ZEITSCHRIFT FÜR VERGLEICHENDE SPRACHFORSCHUNG",
+      "autor": [
+        "Kuhn, Adalbert",
+        "Hofmann, Erich",
+        "Mezger, Fritz",
+        "Neumann, Günter",
+        "Thieme, Paul"
+      ],
+      "jahr": 1971,
+      "zeitschrift": "Zeitschrift für vergleichende Sprachforschung",
+      "verlag": "Vandenhoeck & Ruprecht",
+      "band": "85",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Die Titelseite gehört zur Zeitschrift für vergleichende Sprachforschung, begründet von Adalbert Kuhn und herausgegeben von Erich Hofmann, Fritz Mezger, Günter Neumann und Paul Thieme. Das Dokument ist ein Sonderdruck aus Band 85, Heft 2, erschienen im Jahr 1971, und wird vom Verlag Vandenhoeck & Ruprecht in Göttingen herausgegeben.",
+      "schlagworte": [
+        "Sprachforschung",
+        "Vergleichende Linguistik",
+        "Zeitschrift",
+        "Linguistikgeschichte"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:33.167439",
+        "volltext": "24.3.6\nSonderdruck aus\nZEITSCHRIFT FÜR\nVERGLEICHENDE\nSPRACHFORSCHUNG\nBEGRÜNDET VON ADALBERT KUHN\nHERAUSGEGEBEN VON\nERICH HOFMANN, FRITZ MEZGER\nGÜNTER NEUMANN UND PAUL THIEME\n85. BAND\n2. HEFT 1971\nVANDENHOECK & RUPRECHT IN GÖTTINGEN",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00003.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00003.jpg",
+      "_filename": "BoxP1_BoxP1_document_00003.yaml"
+    },
+    {
+      "titel": "DIE SPRACHE",
+      "autor": [],
+      "jahr": 1986,
+      "zeitschrift": "ZEITSCHRIFT FÜR SPRACHWISSENSCHAFT",
+      "verlag": "VERLAG DER WIENER SPRACHGESELLSCHAFT",
+      "band": "32",
+      "seiten": "1",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Dies ist ein Sonderdruck aus der \"Zeitschrift für Sprachwissenschaft\". Der Titel des Artikels ist \"Die Sprache\". Das Veröffentlichungsjahr ist 1986, Band 32, Seite 1. Der Verlag ist der Verlag der Wiener Sprachgesellschaft.",
+      "schlagworte": [
+        "Sprache",
+        "Sprachwissenschaft",
+        "Zeitschrift"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:37.608451",
+        "volltext": "R. 4. 4. 13.6.?. Sonderdruck aus\n\nDIE SPRACHE\n\nZEITSCHRIFT FÜR SPRACHWISSENSCHAFT\n\n32,1\n\n1986\n\nVERLAG DER WIENER SPRACHGESELLSCHAFT\nKOMMISSIONSSVERLAGE\nHARRASSOWITZ WIESBADEN - GERO LD & CO WIEN\n",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00004.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00004.jpg",
+      "_filename": "BoxP1_BoxP1_document_00004.yaml"
+    },
+    {
+      "titel": "Zum topographisch-historischen Hintergrund von Nah 3,8f",
+      "autor": [
+        "Schneider, Thomas"
+      ],
+      "jahr": 1988,
+      "zeitschrift": "BN",
+      "verlag": null,
+      "band": "44",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Artikel untersucht den topographisch-historischen Hintergrund von Nahum 3,8f. Er analysiert die Ausführungen über Ninive und seine Eroberung durch die Assyrer und deren Bedeutung für die Datierung des Buches Nahum. Der Fokus liegt dabei auf der \"topographischen Notiz\".",
+      "schlagworte": [
+        "Nahum",
+        "Ninive",
+        "Assyrer",
+        "Topographie",
+        "Datierung"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:44.082233",
+        "volltext": "BN 44 (1988)\n\nNahum und Theben\n\nZum topographisch-historischen Hintergrund von Nah 3,8f\n\nThomas Schneider - Basel\n\nDie folgenden Ausführungen sollen einerseits zum Verständnis der Theben-\nepisode Nahums beitragen, gleichzeitig aber auch für die zeitliche Ansetzung\ndes Propheten Argumente liefern. Sowohl die Frage nach Wirklichkeitsnähe\noder -ferne der Beschreibung Thebens als auch nach der Eroberung der Stadt\ndurch die Assyrier und ihrem Nachhall sind für die Datierung und Einordnung\nNahums entscheidend. Auf sie sei deshalb nochmals ein Blick geworfen.\n\n1. Die \"topographische Notiz\"\n\nIm Gegensatz zur \"historischen Notiz\" (Nah 3,9), wo einzig die doppelte Er-\nwähnung Libyens Probleme aufwirft, ist die topographische Beschreibung (3,8)\nder Stadt No-Amon m.E. noch nicht befriedigend erklärt. Nach diesem Passus\nin dem \"Wasser rings um sie her\" vermutlich eine Glose dar-\nstellt sah die Septuaginta in der Stadt No-Amon Alexandrien; und anfangs\n1\nFolgende Nahum-Kommentare werden abgekürzt zitiert: KELLER CAT = C.-A.\nKELLER, Nahum, Habacuc, Sophonie (CAT XIII), 1971; NOWACK HK = W. NOWACK,\nDie kleinen Propheten (HK III, 4), 1903; RUDOLPH KAT = W. RUDOLPH, Micha-\nNahum-Habakuk-Zephanja (KAT XIII 3), 1975; SMITH ICC = J.M.P. SMITH/W.H.\nWARD/J.A. BEWER, A Critical and Exegetical Commentary on Micah, Zephaniah,\nNahum, Habakkuk, Obadiah and Joel, 1911, (ICC).\nEine Übersicht der zw. '660' und 'nach 612' variierenden Datierung bei\nKELLER CAT S. 102. Eine extreme Position vertritt H. SCHULZ, der den Ver-\ngleich von Theben und Ninive für erst aus historischer Distanz möglich\nhält und für eine nachexilische Datierung eintritt (Das Buch Nahum, 1973,\nS. 48.56).\nOb eine geographische Differenzierung von Lubim und put möglich ist (s.\ndazu W. ZIMMERLI, Ezechiel (BK XIII), 1969, S. 653f.730f.) oder hier le-\ndiglich eine poetische Doppelung vorliegt (J. SIMONS, The Geographical\nand Topographical Texts of the Old Testament, 1959, § 198; vgl. C. WESTER-\nMANN, Genesis 1-11 (BK I/1), 1974, S. 682; HAL III, 867) ist umstritten.\nDie LXX hat nur λίθους γεγονότοι βοηθοί αὐτῆς (ist nur eines der Wörter\n63",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00005.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00005.jpg",
+      "_filename": "BoxP1_BoxP1_document_00005.yaml"
+    },
+    {
+      "titel": "Die phönizisch-hethitischen Bilinguen vom Karatepe",
+      "autor": [
+        "Steinherr, Franz"
+      ],
+      "jahr": null,
+      "zeitschrift": null,
+      "verlag": null,
+      "band": null,
+      "seiten": null,
+      "document_type": "manuskript",
+      "autorengruppe": "waefler",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Text ist eine Widmung an den verstorbenen Lehrer Prof. Dr. Hel. muth Th. Bossert und befasst sich mit der Fortführung seiner philologischen Arbeiten zu den phönizisch-hethitischen Bilinguen von Karatepe. Erörtert werden die Beurteilung der Entdeckung sowie die Schwierigkeiten bei der Aufhellung der hieroglyphenluwischen Schrift und Sprache.",
+      "schlagworte": [
+        "Karatepe",
+        "Bilinguen",
+        "Hieroglyphenluwisch",
+        "Philologie",
+        "Bossert"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:50.238014",
+        "volltext": "2.4.84.5.6?\nFranz Steinherr\nDr. Franz Steinherr\n8000 München 19\nGroßstr. 13\nDie phönizisch-hethitischen Bilinguen\nvom Karatepe*)\n103\nDurch den plötzlichen Tod meines Lehrers, Prof.Dr.Hel-\nmuth Th.BOSSERT, am 5.11.1961 in Istanbul, wurde die Fort-\nführung der philologischen Arbeiten an den phönizisch-\nhethitischen Bilinguen vom Karatepe unterbrochen. Über\ndie Beurteilung der Entdeckung vom Karatepe, den Wert der\nBilinguen für die Aufhellung der hieroglyphenluwischen\nSchrift und Sprache über das von verschiedenen Forschern\nvorher Erarbeitete hinaus soll hier nicht eingegangen\nwerden, umsomehr als jetzt eine klare, besonnene Beurtei-\nlung dieser Fragen durch A.KAMMENHUBER im Handbuch der\nOrientalistik ¹) vorliegt. Die Gründe der Verzögerung der\nendgültigen Herausgabe hat BOSSERT selbst des öfteren\nmit der noch nicht abgeschlossenen Zusammensetzung von\nFragmenten erklärt, zu denen sich immer wieder neue\nSchriftbruchstücke fanden ²). Selbst heute ist ein end-\ngültiger Abschluß der Zusammensetzung der vorhandenen,\nmeist kleineren Bruchstücke nicht möglich.\nImmerhin hat BOSSERT noch Ausschnitte der Hu-Fassung\nvon der unveröffentlichten Fluchformel des letzten Teils\nmit Übersetzung ³) gebracht, während P.MERIGGI anhand ver-\nschiedener Abbildungen von Karatepe in archäologischen\nWerken und Bildbänden eine Rekonstruktion des noch un-\npublizierten Hu-Textes 4) herzustellen versuchte. So ist es\nverständlich, daß der vorliegende Text in Bezug auf Lesung\nund Vollständigkeit von den früheren Veröffentlichungen\nabweicht, ohne daß hier im einzelnen darauf verwiesen\nwurde.\nDie Erlaubnis zur Publikation der 7.Fortsetzung vor der\nEndpublikation, die vor allem die maßgerechten Zeichnungen",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00006.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00006.jpg",
+      "_filename": "BoxP1_BoxP1_document_00006.yaml"
+    },
+    {
+      "titel": "Studien zur Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit (etwa 10. – 7. Jh. v. u. Z.)",
+      "autor": [
+        "Voos, Joachim"
+      ],
+      "jahr": 1988,
+      "zeitschrift": "EAZ Ethn.-Archäol. Z.",
+      "verlag": null,
+      "band": "29",
+      "seiten": "347-362",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "schueler_doktoranden",
+      "sprache": "de",
+      "kurzbeschreibung": "Die Arbeit untersucht die Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit. Im Mittelpunkt steht die Analyse von Bildwerken aus Kleinstaaten Nordsyriens und Südostanatoliens, die im Totenkult verwendet wurden. Ziel ist die Charakterisierung der damit verbundenen religiösen Vorstellungen und der Kunstproduktion.",
+      "schlagworte": [
+        "Syrohethitisch",
+        "Totenkult",
+        "Eisenzeit",
+        "Statuen",
+        "Reliefs"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:57.086278",
+        "volltext": "EAZ Ethn.-Archäol. Z.\n29, 1988, 347–362\nPromotion (A) Berlin 1986:\nAkademie der Wissenschaften der DDR, Forschungsbereich Gesellschaftswissenschaften¹\nStudien zur Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit\n(etwa 10. – 7. Jh. v. u. Z.)\nvon JOACHIM VOOS (Berlin)\nmit 10 Abbildungen und dem Umschlagbild\nIm Mittelpunkt der vorliegenden Arbeit steht die von der Auswer-\ntung des zur Verfügung stehenden Textmaterials begleitete Analyse\nund inhaltliche Interpretation von Bildwerken aus den früheisen-\nzeitlichen Kleinstaaten Nordsyriens und Südostanatoliens, die als\nGrabdenkmäler und im Totenkult Verwendung fanden. Ziel ist es, die\nmit dem Totenkult verbundenen religiösen Vorstellungen herauszu-\narbeiten und die davon geprägte Kunstproduktion zu charakterisie-\nren, soweit es die Quellenlage zuläßt.\nGrundlagen\nDie Bezeichnung der Kultur dieser Kleinstaaten ist noch umstrit-\nten. Der hier verwendete Terminus \"syrohethitisch\" vermag u. E. die\nkomplexe ethnische Situation zu kennzeichnen und die bedeuten-\nden syrischen (alt- und mittelsyrischen, aramäischen) und hethitischen\n(besonders luwischen) Traditionen hervorzuheben, denen sie – wenn\nauch mit unterschiedlicher Schwerpunktsetzung – folgten und die\nsich auch in Ideologie und Kunst widerspiegeln.\nDie Fürstentümer waren in der Folge des Zusammenbruchs des he-\nthitischen Großreichs und seiner nordsyrischen Vasallenstaaten, der\nmit dem Einbruch der \"Seevölker\" um 1200 v.u.Z. einherging und et-\nwa das Ende der Bronze- und den Beginn der Eisenzeit markiert –\nentstanden und wurden später nach und nach durch Assyrer an­ nek-\ntiert (bis etwa 700 v.u.Z.). Die weitaus größte Zahl der hier be-\nhandelten Denkmäler datiert jedoch aus dem 9. und 8. Jh.\nDas Verbreitungsgebiet der Monumente reicht etwa von Hama im\nSüden bis zum Bogen des Kizil Irmak im Norden, von den Bergen des\nKaradağ im Westen bis zum Habur, einem Nebenfluß des Euphrat, im\nOsten (Abb. 1).\n1\nGutachter: Prof. Dr. phil. habil. H. KLENGEL-Berlin (Betreuer),\nProf. Dr. phil. habil. B. BRENTJES-Halle (Saale), OMuR Dr. phil.\nL. JAKOB-ROST-Berlin.\n347",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00007.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00007.jpg",
+      "_filename": "BoxP1_BoxP1_document_00007.yaml"
+    },
+    {
+      "titel": "Die Bedeutung der Bilinguis vom Karatepe für die Entzifferung der hethitischen Hieroglyphen",
+      "autor": [
+        "GÜTERBOCK, H. G."
+      ],
+      "jahr": 1940,
+      "zeitschrift": null,
+      "verlag": "Elanders Boktryckeri A.-B.",
+      "band": "XLVII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument beschäftigt sich mit der Bedeutung der Bilinguis von Karatepe für die Entzifferung der hethitischen Hieroglyphen. Es wurde 1940 in Göteborg veröffentlicht.",
+      "schlagworte": [
+        "Karatepe",
+        "Hethitische Hieroglyphen",
+        "Bilinguis",
+        "Entzifferung",
+        "Linguistik"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:01.547241",
+        "volltext": "Dr. Franz Steiner herr\nvom Verf. überreicht\n\nDie Bedeutung der Bilinguis vom\nKaratepe für die Entzifferung der\nhethitischen Hieroglyphen\n\nVon\n\nH. G. GÜTERBOCK\n\nUppsala Universitetet\n\n(Ex. Erani vol. XLVII seorsum expr.)\n\nGotoburgi 1940. Typis descr. Elanders Boktr. A.-B.",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00008.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00008.jpg",
+      "_filename": "BoxP1_BoxP1_document_00008.yaml"
+    },
+    {
+      "titel": "DIE WELT DES ORIENTS. Wissenschaftliche Beiträge zur Kunde des Morgenlandes",
+      "autor": [
+        "Röllig, Wolfgang",
+        "Soden, Wolfram von"
+      ],
+      "jahr": 1973,
+      "zeitschrift": "DIE WELT DES ORIENTS",
+      "verlag": "VANDENHOECK & RUPRECHT",
+      "band": "VII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Dieser Sonderdruck, aus \"Die Welt des Orients\" stammend, beinhaltet wissenschaftliche Beiträge zur Kunde des Morgenlandes. Er wurde von Wolfgang Röllig und Wolfram von Soden herausgegeben und erschien im Jahr 1973 als Band VII, Heft 1.",
+      "schlagworte": [
+        "Orientwissenschaft",
+        "Morgenland",
+        "Wissenschaftliche Beiträge",
+        "Monatszeitschrift"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:05.887184",
+        "volltext": "Sonderdruck aus\n\nDIE WELT\nDES ORIENTS\nWissenschaftliche Beiträge\nzur Kunde des Morgenlandes\n\nherausgegeben von\nWolfgang Röllig und Wolfram von Soden\n\nBAND VII\n1973\nHEFT 1\nVANDENHOECK & RUPRECHT IN GÖTTINGEN",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1",
+      "filename": "BoxP1_document_00009.jpg",
+      "image_path": "CZURImages/BoxP1/BoxP1_document_00009.jpg",
+      "_filename": "BoxP1_BoxP1_document_00009.yaml"
+    },
+    {
+      "titel": "REVUE HITTITE ET ASIANIQUE",
+      "autor": [],
+      "jahr": 1972,
+      "zeitschrift": "REVUE HITTITE ET ASIANIQUE",
+      "verlag": "ÉDITIONS KLINCKSIECK",
+      "band": "TOME XXX",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "fr",
+      "kurzbeschreibung": "Der Titel gibt an, dass es sich um einen Artikel oder eine Veröffentlichung handelt, die sich mit hethitischer und asiatischer Thematik befasst. Das Erscheinungsjahr ist 1972 und die Publikation stammt aus dem Verlag Éditions Klincksieck.",
+      "schlagworte": [
+        "Hethitisch",
+        "Asiatisch",
+        "Revue"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:27.271008",
+        "volltext": "R.4.2.4_86?\n12/25\nREVUE HITTITE\nET ASIANIQUE\nTOME XXX\n1972\nÉDITIONS KLINCKSIECK",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00001.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00001.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00001.yaml"
+    },
+    {
+      "titel": "HISTORISCH-GEOGRAPHISCHE NACHRICHTEN AUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN UND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT VOR DEM EINFALL DER GUETAEER (CA. 2200/2136)",
+      "autor": [
+        "Kammenhuber, A."
+      ],
+      "jahr": 1974,
+      "zeitschrift": "ACTA ANTIQUA ACADEMIAE SCIENTIARUM HUNGARICAE",
+      "verlag": null,
+      "band": "XXII",
+      "seiten": "1-4",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Artikel befasst sich mit historisch-geographischen Nachrichten aus der alturrischen Überlieferung sowie aus altelamischen und akkadischen Inschriften, die sich auf die Zeit vor dem Einfall der Gutäer beziehen (ca. 2200/2136 v. Chr.).",
+      "schlagworte": [
+        "Alturrisch",
+        "Altebisch",
+        "Akkad",
+        "Gutäer",
+        "Historische Geographie"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:31.969029",
+        "volltext": "2.4. B62\n\"Herzlich!\"\nACTA ANTIQUA ACADEMIAE SCIENTIARUM HUNGARICAE T. XXII. FASC. 1-4.\nA. KAMMENHUBER\nHISTORISCH-GEOGRAPHISCHE NACHRICHTEN\nAUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN\nUND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT\nVOR DEM EINFALL DER GUETAEER (CA. 2200/2136)\n1974",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00002.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00002.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00002.yaml"
+    },
+    {
+      "titel": "ZEITSCHRIFT FÜR VERGLEICHENDE SPRACHFORSCHUNG",
+      "autor": [],
+      "jahr": 1971,
+      "zeitschrift": "Zeitschrift für vergleichende Sprachforschung",
+      "verlag": "Vandenhoeck & Ruprecht",
+      "band": "85",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Dies ist ein Sonderdruck der Zeitschrift für vergleichende Sprachforschung. Die Zeitschrift wurde von Adalbert Kuhn begründet und wird herausgegeben von Erich Hofmann, Fritz Mezger, Günter Neumann und Paul Thieme. Die Ausgabe stammt aus dem Jahr 1971.",
+      "schlagworte": [
+        "Sprachforschung",
+        "Vergleichende Sprachwissenschaft",
+        "Linguistik"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:35.760030",
+        "volltext": "2.4.3.6\nSonderdruck aus\nZEITSCHRIFT FÜR\nVERGLEICHENDE\nSPRACHFORSCHUNG\nBEGRÜNDET VON ADALBERT KUHN\nHERAUSGEGEBEN VON\nERICH HOFMANN, FRITZ MEZGER\nGÜNTER NEUMANN UND PAUL THIEME\n85. BAND\n2. HEFT 1971\nVANDENHOECK & RUPRECHT IN GÖTTINGEN",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00003.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00003.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00003.yaml"
+    },
+    {
+      "titel": "DIE SPRACHE",
+      "autor": [],
+      "jahr": 1986,
+      "zeitschrift": "ZEITSCHRIFT FÜR SPRACHWISSENSCHAFT",
+      "verlag": "VERLAG DER WIENER SPRACHGESELLSCHAFT",
+      "band": "32,1",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Titel des Dokuments ist \"DIE SPRACHE\", welches als Sonderdruck aus der \"ZEITSCHRIFT FÜR SPRACHWISSENSCHAFT\" im Jahr 1986 erschienen ist. Der Verlag ist \"VERLAG DER WIENER SPRACHGESELLSCHAFT\".",
+      "schlagworte": [
+        "Sprache",
+        "Sprachwissenschaft",
+        "Zeitschrift"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:39.377517",
+        "volltext": "R.4.14.15.6.2\nSonderdruck aus\nDIE SPRACHE\nZEITSCHRIFT FÜR SPRACHWISSENSCHAFT\n32,1\n1986\nVERLAG DER WIENER SPRACHGESELLSCHAFT\nKOMMISSIONSVERLAGE\nHARRASSOWITZ WIESBADEN - GEROLD & CO WIEN",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00004.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00004.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00004.yaml"
+    },
+    {
+      "titel": "Zum topographisch-historischen Hintergrund von Nah 3,8f",
+      "autor": [
+        "Schneider, Thomas"
+      ],
+      "jahr": 1988,
+      "zeitschrift": null,
+      "verlag": null,
+      "band": "44",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument untersucht den topographisch-historischen Hintergrund von Nahum 3,8f. Es werden verschiedene Ausführungen und Kommentare zu diesem Abschnitt des Propheten zitiert und analysiert, insbesondere im Hinblick auf die Datierung und die topographische Beschreibung von Theben.",
+      "schlagworte": [
+        "Nahum",
+        "Theben",
+        "Prophetie",
+        "Topographie",
+        "Historischer Hintergrund"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:45.344129",
+        "volltext": "BN 44 (1988)\n\nNahum und Theben\n\nZum topographisch-historischen Hintergrund von Nah 3,8f\n\nThomas Schneider - Basel\n\nDie folgenden Ausführungen sollen einerseits zum Verständnis der Theben-\nepisode Nahums beitragen, gleichzeitig aber auch für die zeitliche Ansetzung\ndes Propheten Argumente liefern. Sowohl die Frage nach Wirklichkeitsnähe\noder -ferne der Beschreibung Thebens als auch nach der Eroberung der Stadt\ndurch die Assyrier und ihrem Nachhall sind für die Datierung und Einordnung\nNahums entscheidend. Auf sie sei deshalb nochmals ein Blick geworfen.\n\n1. Die \"topographische Notiz\"\n\nIm Gegensatz zur \"historischen Notiz\" (Nah 3,9), wo einzig die doppelte Er-\nwähnung Libyens Probleme aufwirft, ist die topographische Beschreibung (3,8)\nder Stadt No-Amon m.E. noch nicht befriedigend erklärt. Nach diesem Passus\n- in dem \"Wasser rings um sie her\" vermutlich eine. Gosse dar-\nstellt sah die Septuaginta in der Stadt No-Amon Alexandrien; und anfangs\n1\nFolgende Nahum-Kommentare werden abgekürzt zitiert: KELLER CAT = C.-A.\nKELLER, Nahoum, Habacuc, Sophonie (KAT XIII), 1971; NOWACK HK = W. NOWACK,\nDie kleinen Propheten (HK III,4), 1903; RUDOLPH KAT = W. RUDOLPH, Micha-\nNahum-Habakuk-Zephanja (KAT XIII 3), 1975; SMITH ICC = J.M.P. SMITH/W.H.\nWARD/J.A. BEWER, A Critical and Exegetical Commentary on Micah, Zephaniah,\nNahum, Habakkuk, Obadiah and Joel, 1911, (ICC).\n2 Eine Übersicht der zw. '660' und 'nach 612' variierenden Datierung bei\nKELLER CAT S. 102. Eine extreme Position vertritt H. SCHULZ, der den Ver-\ngleich von Theben und Ninive für erst aus historischer Distanz möglich\nhält und für eine nachexilische Datierung eintritt (Das Buch Nahum, 1973,\nS. 48.56).\n3 Ob eine geographische Differenzierung von lubim und puț möglich ist (s.\ndazu W. ZIMMERLI, Ezechiel (BK XIII), 1969, S. 653f.730f.) oder hier le-\ndiglich eine poetische Doppelung vorliegt (J. SIMONS, The Geographical\nand Topographical Texts of the Old Testament, 1959, § 198; vgl. C. WESTER-\nMANN, Genesis 1-11 (BK I/1), 1974, S. 682; HAL III, 867) ist umstritten.\nDie LXX hat nur Λίθους ἐγενόντο βοηθοὶ αὐτῆς (ist nur eines der Wörter\n63",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00005.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00005.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00005.yaml"
+    },
+    {
+      "titel": "Die phönizisch-hethitischen Bilinguen vom Karatepe*",
+      "autor": [
+        "Steinherr, Franz"
+      ],
+      "jahr": null,
+      "zeitschrift": null,
+      "verlag": null,
+      "band": null,
+      "seiten": null,
+      "document_type": "manuscript",
+      "autorengruppe": "waefler",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument handelt von der Fortführung philologischer Arbeiten an den phönizisch-hethitischen Bilinguen von Karatepe nach dem plötzlichen Tod des Lehrers Prof. Dr. Hel-mut Th. BOSSert. Es wird auf die Bedeutung der Entdeckungen und die Herausgabe von Materialien eingegangen.",
+      "schlagworte": [
+        "Phönizisch-Hethitisch",
+        "Karatepe",
+        "Bilinguen",
+        "Philologie",
+        "Ägyptologie"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:50.341517",
+        "volltext": "2.4.4.2. 3.6? Nis sull. Grüsse\nFranz Steinherr\nDr. Franz Steinherr\n8000 München 19\nGroßstr. 13\n103\nDie phönizisch-hethitischen Bilinguen\nvom Karatepe*)\nDurch den plötzlichen Tod meines Lehrers, Prof.Dr.Hel-\nmuth Th.BOSSERT, am 5.11.1961 in Istanbul, wurde die Fort-\nführung der philologischen Arbeiten an den phönizisch-\nhethitischen Bilinguen vom Karatepe unterbrochen. Über\ndie Beurteilung der Entdeckung vom Karatepe, den Wert der\nBilinguen für die Aufhellung der hieroglyphenluwischen\nSchrift und Sprache über das von verschiedenen Forschern\nvorher Erarbeitete hinaus soll hier nicht eingegangen\nwerden, umsomehr als jetzt eine klare, besonnene Beurtei-\nlung dieser Fragen durch A.KAMMENHUBER im Handbuch der\nOrientalistik¹) vorliegt. Die Gründe der Verzögerung der\nendgültigen Herausgabe hat BOSSERT selbst des öfteren\nmit der noch nicht abgeschlossenen Zusammensetzung von\nFragmenten erklärt, zu denen sich immer wieder neue\nSchriftbruchstücke fanden²). Selbst heute ist ein end-\ngültiger Abschluß der Zusammensetzung der vorhandenen,\nmeist kleineren Bruchsstücke nicht möglich.\nImmerhin hat BOSSERT noch Ausschnitte der Hu-Fassung\nvon der unveröffentlichten Fluchformel des letzten Teils\nmit Übersetzung³) gebracht, während P.MERIGGI anhand ver-\nschiedener Abbildungen von Karatepe in archäologischen\nWerken und Bildbänden eine Rekonstruktion des noch un-\npublizierten Hu-Textes 4) herzustellen versuchte. So ist es\nverständlich, daß der vorliegende Text in Bezug auf Lesung\nund Vollständigkeit von den früheren Veröffentlichungen\nabweicht, ohne daß hier im einzelnen darauf verwiesen\nwurde.\nDie Erlaubnis zur Publikation der 7.Fortsetzung vor der\nEndpublikation, die vor allem die maßgerechten Zeichnungen",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00006.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00006.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00006.yaml"
+    },
+    {
+      "titel": "Studien zur Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit (etwa 10. – 7. Jh. v. u. Z.)",
+      "autor": [
+        "VOOS, JOACHIM"
+      ],
+      "jahr": 1988,
+      "zeitschrift": "EAZ Ethnographisch-Archäologische Zeitschrift",
+      "verlag": null,
+      "band": "29",
+      "seiten": "347-362",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Diese Arbeit untersucht die Funktion von Statuen und Reliefs im Totenkult während der frühen Eisenzeit (ca. 10.-7. Jh. v. u. Z.) im syro-hethitischen Kleinstaatengebiet. Der Fokus liegt auf der Analyse von Grabdenkmälern und den damit verbundenen religiösen Vorstellungen, wobei die kunsthistorische Produktion charakterisiert wird.",
+      "schlagworte": [
+        "Totenkult",
+        "Syro-Hethitisch",
+        "Frühe Eisenzeit",
+        "Statuen",
+        "Reliefs"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:57.219069",
+        "volltext": "Promotion (A) Berlin 1986:\nAkademie der Wissenschaften der DDR, Forschungsbereich Gesellschaftswissenschaften¹\nStudien zur Rolle von Statuen und Reliefs im syrohethiti-\nschen Totenkult während der frühen Eisenzeit\n(etwa 10. – 7. Jh. v. u. Z.)\nvon JOACHIM VOOS (Berlin)\nmit 10 Abbildungen und dem Umschlagbild\nIm Mittelpunkt der vorliegenden Arbeit steht die von der Auswer-\ntung des zur Verfügung stehenden Textmaterials begleitete Analyse\nund inhaltliche Interpretation von Bildwerken aus den frühenisen-\nzeitlichen Kleinstaaten Nordsyriens und Südostanatoliens, die als\nGrabdenkmäler und im Totenkult Verwendung fanden. Ziel ist es, die\nmit dem Totenkult verbundenen religiösen Vorstellungen herauszu-\narbeiten und die davon geprägte Kunstproduktion zu charakterisie-\nren, soweit es die Quellenlage zuläßt.\nGrundlagen\nDie Bezeichnung der Kultur dieser Kleinstaaten ist noch umstrit-\nten. Der hier verwendete Terminus \"syrohethitisch\" vermag u. E. die\nkomplexe ethnische Situation zu kennzeichnen und die bedeutenden\nsyrischen (alt- und mittelsyrischen, aramäischen) und hethitischen\n(besonders luwischen) Traditionen hervorzuheben, denen sie – wenn\nauch mit unterschiedlicher Schwerpunktsetzung – folgten und die\nsich auch in Ideologie und Kunst widerspiegeln.\nDie Fürstentümer waren in der Folge des Zusammenbruchs des he-\nthitischen Großreichs und seiner nordsyrischen Vasallenstaaten, der\nmit dem Einbruch der \"Seevölker\" um 1200 v.u.Z. einherging und et-\nwa das Ende der Bronze- und den Beginn der Eisenzeit markiert –\nentstanden und wurden später nach und nach durch Assyrer annek-\ntiert (bis etwa 700 v.u.Z.). Die weitaus größte Zahl der hier be-\nhandelten Denkmäler datiert jedoch aus dem 9. und 8. Jh.\nDas Verbreitungsgebiet der Monumente reicht etwa von Hama im\nSüden bis zum Bogen des Kizil Irmak im Norden, von den Bergen des\nKaradağ im Westen bis zum Habur, einem Nebenfluß des Euphrat, im\nOsten (Abb. 1).\n¹ Gutachter: Prof. Dr. phil. habil. H. KLENGEL-Berlin (Betreuer),\nProf. Dr. phil. habil. B. BRENTJES-Halle (Saale), OMuR Dr. phil.\nL. JAKOB-ROST-Berlin.\n347",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00007.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00007.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00007.yaml"
+    },
+    {
+      "titel": "Die Bedeutung der Bilinguis vom Karatepe für die Entzifferung der hethitischen Hieroglyphen",
+      "autor": [
+        "Guterbock, H. G."
+      ],
+      "jahr": 1940,
+      "zeitschrift": null,
+      "verlag": "Elanders Boktryckeri A.-B.",
+      "band": "XLVII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "mitarbeiter",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Artikel untersucht die Bedeutung der bilinguis von Karatepe für die Entzifferung der hethitischen Hieroglyphen. Es handelt sich um einen Sonderdruck aus \"Ex Erani\", Band XLVII.",
+      "schlagworte": [
+        "Karatepe",
+        "Hethitische Hieroglyphen",
+        "Bilinguis",
+        "Entzifferung",
+        "Linguistik"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:01.864122",
+        "volltext": "Dr. Franz Steinherr\nvom Verf. überreicht\n\nDie Bedeutung der Bilinguis vom\nKaratepe für die Entzifferung der\nhethitischen Hieroglyphen\n\nVon\nH. G. GUTERBOCK\nUppsala Universitet\n\n(Ex Erani vol. XLVII seorsum expr.)\n\nGotoburgi 1940. Typis descr. Elanders Boktr. A.-B.",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00008.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00008.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00008.yaml"
+    },
+    {
+      "titel": "DIE WELT DES ORIENTS",
+      "autor": [
+        "Röllig, Wolfgang",
+        "Soden, Wolfram von"
+      ],
+      "jahr": 1973,
+      "zeitschrift": "Die Welt des Orients",
+      "verlag": "Vandenhoeck & Ruprecht",
+      "band": "VII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Dieser Sonderdruck trägt den Titel \"Die Welt des Orients\" und enthält wissenschaftliche Beiträge zur Kunde des Morgenlandes. Er wurde von Wolfgang Röllig und Wolfram von Soden herausgegeben.",
+      "schlagworte": [
+        "Orient",
+        "Morgenland",
+        "Wissenschaftliche Beiträge",
+        "Herausgeber"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:06.269010",
+        "volltext": "Sonderdruck aus\nDIE WELT\nDES ORIENTS\nWissenschaftliche Beiträge\nzur Kunde des Morgenlandes\nherausgegeben von\nWolfgang Röllig und Wolfram von Soden\nBAND VII\n1973\nHEFT 1\nVANDENHOECK & RUPRECHT IN GÖTTINGEN",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxP1a",
+      "filename": "BoxP1a_document_00009.jpg",
+      "image_path": "CZURImages/BoxP1a/BoxP1a_document_00009.jpg",
+      "_filename": "BoxP1a_BoxP1a_document_00009.yaml"
+    },
+    {
+      "titel": "DIE GRABUNGEN AUF DEM NORŞUN-TEPE, 1971",
+      "autor": [
+        "Hauptmann, Harald",
+        "Wäfler, Marcus",
+        "Kock, Dieter",
+        "Malec, Franz",
+        "Storch, Gerhard"
+      ],
+      "jahr": 1974,
+      "zeitschrift": "Keban Project Publications Series",
+      "verlag": "Türk Tarih Kurumu Basımevi",
+      "band": "I, No. 4",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument beschreibt die Ausgrabungen auf dem Norşun-Tepe im Jahr 1971. Es enthält Berichte über Luwische hieroglyphische Siegel und Artefakte sowie über Kleinsäugerfunde, mit Beiträgen von Harald Hauptmann, Marcus Wäfler, Dieter Kock, Franz Malec und Gerhard Storch.",
+      "schlagworte": [
+        "Norşun-Tepe",
+        "Ausgrabungen",
+        "1971",
+        "Luwische Siegel",
+        "Kleinsäuger"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:34.213354",
+        "volltext": "Harald Hauptmann\n\nDIE GRABUNGEN AUF DEM NORŞUN-TEPE, 1971\n\nEK I : Norşun Tepe Luvi Hiyeroglifli Mühürler ve Mühür Baskıları\nMarcus Wäfler\n\nEK II : Norşun Tepe Küçük Memeli Hayvan Kalıntıları\nVon Dieter Kock, Franz Malec, Gerhard Storch\n\nAddendum I : Zu den Hieroglyphenluwischen Siegeln und Bullen vom Norşun-Tepe\nMarcus Wäfler\n\nAddendum II : Kleinsäugerreste aus dem Norşun-Tepe\nVon Dieter Kock, Franz Malec, Gerhard Storch\n\nODTÜ. Keban Projesi Yayınları, Seri I, No. 4\n1971 Çalışmalarından Ayıııbasım.\nReprinted from METU 1971 activities Keban\nProject Publications Series, I, No. 4\n\nTÜRK TARIH KURUMU BASIMEVI, ANKARA, 1974",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00001.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00001.jpg",
+      "_filename": "BoxS3_BoxS3_document_00001.yaml"
+    },
+    {
+      "titel": null,
+      "autor": [],
+      "jahr": 2003,
+      "zeitschrift": "ISTANBULER MITTEILUNGEN",
+      "verlag": null,
+      "band": "53",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Es handelt sich um einen Sonderdruck aus den Istanbuler Mitteilungen, Band 53, erschienen im Jahr 2003. Der genaue Titel und die Autoren des Artikels sind nicht sichtbar.",
+      "schlagworte": [
+        "Sonderdruck",
+        "Istanbuler Mitteilungen",
+        "Archäologie",
+        "Geschichte"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:38.340311",
+        "volltext": "SONDERDRUCK\n\naus\n\nISTANBULER MITTEILUNGEN\n\nBand 53, 2003",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00002.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00002.jpg",
+      "_filename": "BoxS3_BoxS3_document_00002.yaml"
+    },
+    {
+      "titel": "ORIENS ANTIQVVS",
+      "autor": [],
+      "jahr": 1969,
+      "zeitschrift": "ORIENS ANTIQVVS",
+      "verlag": null,
+      "band": "VIII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "it",
+      "kurzbeschreibung": "Die Titelseite zeigt eine Publikation mit dem Titel \"ORIENS ANTIQVVS\", die als Zeitschrift \"Rivista del Centro per le Antichità e la Storia dell'Arte del Vicino Oriente\" identifiziert wird. Sie erschien 1969 als Teil von Volume VIII, Fascicolo 2 und trägt den Vermerk \"Estratto\", was auf einen Sonderdruck hinweist. Der Präsident der Zeitschrift ist Francesco Gabrieli.",
+      "schlagworte": [
+        "Oriens Antiquus",
+        "Archäologie",
+        "Kunstgeschichte",
+        "Naher Osten"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:43.294279",
+        "volltext": "mer. Catt\nDr. Franz Stolhin\nVOLUME VIII\n1969\nFASCICOLO 2\nESTRATTO\nORIENS\nANTIQVVS\nRIVISTA DEL CENTRO PER LE ANTICHITÀ\nE LA STORIA DELL'ARTE DEL VICINO ORIENTE\nPRESIDENTE: FRANCESCO GABRIELI\nROMA VIA CARONCINI 19\n0",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00003.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00003.jpg",
+      "_filename": "BoxS3_BoxS3_document_00003.yaml"
+    },
+    {
+      "titel": "ORIENS ANTIQVVS",
+      "autor": null,
+      "jahr": 1971,
+      "zeitschrift": "RIVISTA DEL CENTRO PER LE ANTICHITA E LA STORIA DELL'ARTE DEL VICINO ORIENTE",
+      "verlag": null,
+      "band": "X",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "it",
+      "kurzbeschreibung": "Der Titel \"ORIENS ANTIQVVS\" deutet auf einen Artikel über alte östliche Kulturen oder Artefakte hin. Es handelt sich um die Zeitschrift \"RIVISTA DEL CENTRO PER LE ANTICHITA E LA STORIA DELL'ARTE DEL VICINO ORIENTE\", erschienen im Jahr 1971 im Volume X, Fascicolo 1. Der Präsident der Zeitschrift war Francesco Gabrieli.",
+      "schlagworte": [
+        "Antike",
+        "Orient",
+        "Archäologie",
+        "Kunstgeschichte",
+        "Zeitschrift"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:48.876163",
+        "volltext": "ten Zott\nVOLUME X\n1971\nFASCICOLO 1\nESTRATTO\nORIENS\nANTIQVVS\nRIVISTA DEL CENTRO PER LE ANTICHITA\nE LA STORIA DELL'ARTE DEL VICINO ORIENTE\nPRESIDENTE; FRANCESCO GABRIELI\nROMA VIA CARONCINI 27",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00004.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00004.jpg",
+      "_filename": "BoxS3_BoxS3_document_00004.yaml"
+    },
+    {
+      "titel": "ORIGIN OF THE PERSIAN ROBE",
+      "autor": [
+        "Goldman, Bernard"
+      ],
+      "jahr": 1964,
+      "zeitschrift": "Iranica Antiqua",
+      "verlag": "E. J. Brill",
+      "band": "IV",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "en",
+      "kurzbeschreibung": "Das Dokument untersucht den Ursprung des persischen Gewandes. Es ist ein Sonderdruck aus der Zeitschrift \"Iranica Antiqua\", Band IV, Ausgabe 2, veröffentlicht im Jahr 1964.",
+      "schlagworte": [
+        "Persisches Gewand",
+        "Ursprung",
+        "Iranica Antiqua",
+        "Geschichte"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:54.042371",
+        "volltext": "ORIGIN OF THE PERSIAN ROBE\n\nBY\n\nBERNARD GOLDMAN\n\nDepartment of Art and Art History, Wayne State University\nDetroit 2, Michigan, U.S.A.\n\nExtrait d' IRANICA ANTIQUA, Vol. IV, Fasc. 2, 1964\n\nSUB AE\nGIDE PALLAS\n\nEJB. S.\n\nLEIDEN\nE. J. BRILL\n1964",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00005.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00005.jpg",
+      "_filename": "BoxS3_BoxS3_document_00005.yaml"
+    },
+    {
+      "titel": "MORE ADDENDA FROM TOPRAK KALE",
+      "autor": [
+        "BARNETT, R. D."
+      ],
+      "jahr": 1972,
+      "zeitschrift": "ANATOLIAN STUDIES",
+      "verlag": "Journal of the British Institute of Archaeology at Ankara",
+      "band": "VOL. XXII",
+      "seiten": null,
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "en",
+      "kurzbeschreibung": "Dieser Artikel, \"MORE ADDENDA FROM TOPRAK KALE\", ist ein Sonderdruck aus der Zeitschrift \"ANATOLIAN STUDIES\". Er wurde 1972 im \"Journal of the British Institute of Archaeology at Ankara\" veröffentlicht und befasst sich mit dem Band XXII der Publikation. Der Autor des Artikels ist R. D. Barnett.",
+      "schlagworte": [
+        "Toprak Kale",
+        "Archäologie",
+        "Anatolien",
+        "British Institute of Archaeology"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:59.298252",
+        "volltext": "Reprinted from\nWITH GREETINGS\nRAYS B\nANATOLIAN\nSTUDIES\nJournal of the British Institute of Archaeology at Ankara\nVOL. XXII\n1972\nMORE ADDENDA FROM\nTOPRAK KALE\nBy\nR. D. BARNETT",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00006.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00006.jpg",
+      "_filename": "BoxS3_BoxS3_document_00006.yaml"
+    },
+    {
+      "titel": "The Siege of Lachish*",
+      "autor": [
+        "BARNETT, R. D."
+      ],
+      "jahr": 1958,
+      "zeitschrift": "Israel Exploration Journal",
+      "verlag": null,
+      "band": "8",
+      "seiten": "3",
+      "document_type": "artikel_sonderdruck",
+      "autorengruppe": "kollegen",
+      "sprache": "en",
+      "kurzbeschreibung": "Der Artikel befasst sich mit der Belagerung von Lachisch, wie sie im Alten Testament und durch archäologische Funde beschrieben wird. Der Autor analysiert die Invasion von Sanherib und die strategische Bedeutung von Lachisch, unter Berücksichtigung der Ergebnisse der Wellcome Expedition.",
+      "schlagworte": [
+        "Lachisch",
+        "Sanherib",
+        "Assyrien",
+        "Archäologie",
+        "Altes Testament"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:05.868296",
+        "volltext": "W. h greetings\nReprinted from the Israel Exploration Journal, Vol. 8, No. 3, 1958\n2.3.2.4.8.7?\nThe Siege of Lachish*\nR. D. BARNETT\nBritish Museum, London\n'Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria\ncome up against all the fenced cities of Judah, and took them. And Hezekiah king\nof Judah sent to the king of Assyria to LACHISH saying, I have offended; return\nfrom me: that which thou puttest on me will I bear. And the king of Assyria\nappointed unto Hezekiah king of Judah three hundred talents of silver and thirty\ntalents of gold... And the king of Assyria sent Tartan and Rab-saris and\nRabshakeh from LACHISH to king Hezekiah with a great host against Jerusalem.'\n(2 Kings xviii, 13, 14, 17.)\nThus far the Bible. From the implicit reference to the delays which kept\nSennacherib at Lachish, we infer that it was holding out against a siege, then\nfell. This is confirmed from the Assyrian and archaeological sources. We are\nnot concerned here with the question of strategy which may have been followed\nby Sennacherib in his campaign, except to note that the Assyrians, having\nblocked Jerusalem, swept past to Lachish, no doubt both in order to forestall\nany move on the part of the Egyptians to come to Hezekiah's aid, and to\nintimidate the adjacent Philistine kings, on behalf of one of whom Sennacherib\nclaimed to be intervening. Let us instead turn to the results recently published\nof the Wellcome Expedition to Lachish (Tell Duweir) and see what light they\nthrow upon the battle for Lachish itself, about which singularly little seems\nto have been put together so far from the fragments of information now\navailable. The work of the Wellcome Expedition, as is well known, was\ninterrupted in 1938 by the cruel murder of its able director, Mr. J. L. Starkey;\nfortunately for us all, he had been able to complete the excavation of the city\ngateway and the city walls of the Iron Age. In Miss Tufnell's admirable\nVol. III of the publication, we find illustrated some objects from the actual\nAssyrian assault: arrowheads, scale armour, sling stones, no doubt from the\nThis paper was read to the Archaeology section of the Second World Congress of Jewish\nStudies, held in Jerusalem in 1957.\nOlga Tufnell: Lachish, III (Text and Plates). London, 1953.\n161",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "BoxS3",
+      "filename": "BoxS3_document_00007.jpg",
+      "image_path": "CZURImages/BoxS3/BoxS3_document_00007.jpg",
+      "_filename": "BoxS3_BoxS3_document_00007.yaml"
     },
     {
       "titel": null,
@@ -20007,6 +20786,192 @@
       "filename": "boxS2_document_00043.jpg",
       "image_path": "/Volumes/2025Berlin/CZURImages/boxS2/boxS2_document_00043.jpg",
       "_filename": "boxS2_document_00043.yaml"
+    },
+    {
+      "titel": "Acta Calendariographica. Forschungsberichte",
+      "autor": [
+        "Herbst, Klaus-Dieter"
+      ],
+      "jahr": 2012,
+      "zeitschrift": null,
+      "verlag": null,
+      "band": "4",
+      "seiten": null,
+      "document_type": "andere",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Die Titelseite zeigt den Titel \"Acta Calendariographica. Forschungsberichte\" für Band 4, herausgegeben von Klaus-Dieter Herbst in Jena im Jahr 2012.",
+      "schlagworte": [
+        "Kalender",
+        "Forschung",
+        "Wissenschaft",
+        "Jena"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:39.875356",
+        "volltext": "Acta Calendariographica\n\nForschungsberichte\n\nBand 4\n\nherausgegeben von\n\nKlaus-Dieter Herbst\n\nJena 2012",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00001.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00001.jpg",
+      "_filename": "kirch_kirch_document_00001.yaml"
+    },
+    {
+      "titel": "Acta Calendariographica",
+      "autor": null,
+      "jahr": 2011,
+      "zeitschrift": null,
+      "verlag": null,
+      "band": "3",
+      "seiten": null,
+      "document_type": "manuskript",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument trägt den Titel \"Acta Calendariographica\" und ist Band 3 der Forschungsberichte. Es wurde 2011 in Jena von Klaus-Dieter Herbst herausgegeben.",
+      "schlagworte": [
+        "Calendariographica",
+        "Forschungsberichte",
+        "Band 3"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:44.213205",
+        "volltext": "Acta Calendariographica\n\nForschungsberichte\nBand 3\n\nherausgegeben von\n\nKlaus-Dieter Herbst\n\nJena 2011",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00002.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00002.jpg",
+      "_filename": "kirch_kirch_document_00002.yaml"
+    },
+    {
+      "titel": "Acta Calendariographica: Biobibliographisches Handbuch der Kalendermacher",
+      "autor": [
+        "Herbst, Klaus-Dieter"
+      ],
+      "jahr": null,
+      "zeitschrift": "Acta Calendariographica",
+      "verlag": "HKD",
+      "band": "9",
+      "seiten": null,
+      "document_type": "buch_publiziert",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument ist der neunte Band der Acta Calendariographica und ein biobibliographisches Handbuch, das sich mit Kalendermachern befasst. Der Titel \"Teil 3: Kalendermacher Heller – Reinstein\" deutet auf eine spezifische Auswahl von Biographien hin.",
+      "schlagworte": [
+        "Kalendermacher",
+        "Biobibliographie",
+        "Calendariographica",
+        "Heller",
+        "Reinstein"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:49.004387",
+        "volltext": "Acta Calendariographica\nForschungsberichte, Band 9\nKlaus-Dieter Herbst\nBiobibliographisches Handbuch der\nKalendermacher\nTil 3: Kalendermacher Heller – Reinstein\nVerlag HKD\n0",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00003.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00003.jpg",
+      "_filename": "kirch_kirch_document_00003.yaml"
+    },
+    {
+      "titel": "Astronomie, Literatur, Volksaufklärung: Der Schreibkalender der frühen Neuzeit mit Text- und Bildbeigaben",
+      "autor": [
+        "Herbst, Klaus-Dieter"
+      ],
+      "jahr": null,
+      "zeitschrift": null,
+      "verlag": "Historische Kalender Drucke",
+      "band": null,
+      "seiten": null,
+      "document_type": "buch_publiziert",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument befasst sich mit Schreibkalendern der frühen Neuzeit und deren Bedeutung für Astronomie, Literatur und Volksaufklärung. Es werden historische Kalender Drucke vorgestellt und die enthaltenen Text- und Bildbeigaben analysiert.",
+      "schlagworte": [
+        "Schreibkalender",
+        "Frühe Neuzeit",
+        "Volksaufklärung",
+        "Astronomie",
+        "Literatur"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:54.847447",
+        "volltext": "Klaus-Dieter Herbst (Hrsg.)\n\n\n\n\nDie Verbesserung der\n\nStern-Kunst und des Kalenders/\n\nHoffer und schläger unmaßgeblich vor/\nin einem\n\nKalender/\nAuffs Jahr Christi 1677.\nHIPPAPC!\nEin Liebhaber der E\nAstronomie\nLiteratur\nVolksaufklärung\nDer Schreibkalender\nder frühen Neuzeit\nmit einen Text-\nund Bildbeigaben\n\nedition lumière\nVerlag Historische Kalender Drucke\nDer rechte\nBauen-\nCalender/\nauf das Jahr\n1726.\nCulmbach/\nIn Verlegung Melchior\nZumschert\n\nReiter Zeitungs Kalender",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00004.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00004.jpg",
+      "_filename": "kirch_kirch_document_00004.yaml"
+    },
+    {
+      "titel": "Acta Calendariographica Forschungsberichte, Band 9 Biobibliographisches Handbuch der Kalendermacher Teil 1: Einführung und Verzeichnisse",
+      "autor": [
+        "Herbst, Klaus-Dieter"
+      ],
+      "jahr": null,
+      "zeitschrift": null,
+      "verlag": "Verlag HKD",
+      "band": "9",
+      "seiten": null,
+      "document_type": "buch_publiziert",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Das Dokument ist der neunte Band der Acta Calendariographica Forschungsberichte. Es handelt sich um ein biobibliographisches Handbuch der Kalendermacher, wobei Teil 1 die Einführung und Verzeichnisse enthält.",
+      "schlagworte": [
+        "Kalendermacher",
+        "Biobibliographie",
+        "Acta Calendariographica",
+        "Handbuch",
+        "Forschung"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:54:59.561625",
+        "volltext": "Acta Calendariographica\nForschungsberichte, Band 9\nKlaus-Dieter Herbst\nBiobibliographisches Handbuch der\nKalendermacher\nTeil 1: Einführung und Verzeichnisse\nVerlag HKD\n00000000\n000\n#",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00005.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00005.jpg",
+      "_filename": "kirch_kirch_document_00005.yaml"
+    },
+    {
+      "titel": "Acta Calendariographica Forschungsberichte, Band 9 Klaus-Dieter Herbst Biobibliographisches Handbuch der Kalendermacher Teil 2: Kalendermacher Achalm – Heldvader",
+      "autor": [
+        "Herbst, Klaus-Dieter"
+      ],
+      "jahr": null,
+      "zeitschrift": "Acta Calendariographica",
+      "verlag": "Verlag HKD",
+      "band": "9",
+      "seiten": null,
+      "document_type": "buch_publiziert",
+      "autorengruppe": "kollegen",
+      "sprache": "de",
+      "kurzbeschreibung": "Der Titel beschreibt ein biobibliographisches Handbuch von Klaus-Dieter Herbst, das Teil 2 einer Reihe über Kalendermacher ist. Der Band ist Teil der Acta Calendariographica Forschungsberichte.",
+      "schlagworte": [
+        "Kalendermacher",
+        "Biobibliographie",
+        "Acta Calendariographica",
+        "Forschungsbericht"
+      ],
+      "transkription": {
+        "datum": "2025-07-17T15:55:04.766415",
+        "volltext": "Acta Calendariographica\nForschungsberichte, Band 9\n\nKlaus-Dieter Herbst\n\nBiobibliographisches Handbuch der\nKalendermacher\n\nTeil 2: Kalendermacher Achalm – Heldvader\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nVerlag HKD\n",
+        "confidence": 0.9,
+        "model_used": "gemini-2.5-flash-lite-preview-06-17"
+      },
+      "box": "kirch",
+      "filename": "kirch_document_00006.jpg",
+      "image_path": "CZURImages/kirch/kirch_document_00006.jpg",
+      "_filename": "kirch_kirch_document_00006.yaml"
     }
   ]
 }

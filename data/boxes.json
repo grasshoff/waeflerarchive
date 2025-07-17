@@ -1873,6 +1873,193 @@
     ]
   },
   {
+    "name": "BoxP1",
+    "count": 9,
+    "documents": [
+      {
+        "filename": "BoxP1_document_00001.jpg",
+        "titel": "REVUE HITTITE ET ASIANIQUE",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1_document_00002.jpg",
+        "titel": "HISTORISCH-GEOGRAPHISCHE NACHRICHTEN AUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN UND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT VOR DEM EINFALL DER GU'TAER (CA. 2200/2136)",
+        "autor": [
+          "Kammenhuber, A."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00003.jpg",
+        "titel": "ZEITSCHRIFT FÜR VERGLEICHENDE SPRACHFORSCHUNG",
+        "autor": [
+          "Kuhn, Adalbert",
+          "Hofmann, Erich",
+          "Mezger, Fritz",
+          "Neumann, Günter",
+          "Thieme, Paul"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00004.jpg",
+        "titel": "DIE SPRACHE",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00005.jpg",
+        "titel": "Zum topographisch-historischen Hintergrund von Nah 3,8f",
+        "autor": [
+          "Schneider, Thomas"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00006.jpg",
+        "titel": "Die phönizisch-hethitischen Bilinguen vom Karatepe",
+        "autor": [
+          "Steinherr, Franz"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00007.jpg",
+        "titel": "Studien zur Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit (etwa 10. – 7. Jh. v. u. Z.)",
+        "autor": [
+          "Voos, Joachim"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00008.jpg",
+        "titel": "Die Bedeutung der Bilinguis vom Karatepe für die Entzifferung der hethitischen Hieroglyphen",
+        "autor": [
+          "GÜTERBOCK, H. G."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00009.jpg",
+        "titel": "DIE WELT DES ORIENTS. Wissenschaftliche Beiträge zur Kunde des Morgenlandes",
+        "autor": [
+          "Röllig, Wolfgang",
+          "Soden, Wolfram von"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BoxP1a",
+    "count": 9,
+    "documents": [
+      {
+        "filename": "BoxP1a_document_00001.jpg",
+        "titel": "REVUE HITTITE ET ASIANIQUE",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00002.jpg",
+        "titel": "HISTORISCH-GEOGRAPHISCHE NACHRICHTEN AUS DER ALTURRISCHEN UEBERLIEFERUNG, DEM ALTELAMISCHEN UND DEN INSCHRIFTEN DER KOENIGE VON AKKAD FUER DIE ZEIT VOR DEM EINFALL DER GUETAEER (CA. 2200/2136)",
+        "autor": [
+          "Kammenhuber, A."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00003.jpg",
+        "titel": "ZEITSCHRIFT FÜR VERGLEICHENDE SPRACHFORSCHUNG",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00004.jpg",
+        "titel": "DIE SPRACHE",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00005.jpg",
+        "titel": "Zum topographisch-historischen Hintergrund von Nah 3,8f",
+        "autor": [
+          "Schneider, Thomas"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00006.jpg",
+        "titel": "Die phönizisch-hethitischen Bilinguen vom Karatepe*",
+        "autor": [
+          "Steinherr, Franz"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00007.jpg",
+        "titel": "Studien zur Rolle von Statuen und Reliefs im syrohethitischen Totenkult während der frühen Eisenzeit (etwa 10. – 7. Jh. v. u. Z.)",
+        "autor": [
+          "VOOS, JOACHIM"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00008.jpg",
+        "titel": "Die Bedeutung der Bilinguis vom Karatepe für die Entzifferung der hethitischen Hieroglyphen",
+        "autor": [
+          "Guterbock, H. G."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00009.jpg",
+        "titel": "DIE WELT DES ORIENTS",
+        "autor": [
+          "Röllig, Wolfgang",
+          "Soden, Wolfram von"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "BoxS3",
+    "count": 7,
+    "documents": [
+      {
+        "filename": "BoxS3_document_00001.jpg",
+        "titel": "DIE GRABUNGEN AUF DEM NORŞUN-TEPE, 1971",
+        "autor": [
+          "Hauptmann, Harald",
+          "Wäfler, Marcus",
+          "Kock, Dieter",
+          "Malec, Franz",
+          "Storch, Gerhard"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00002.jpg",
+        "titel": null,
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00003.jpg",
+        "titel": "ORIENS ANTIQVVS",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00004.jpg",
+        "titel": "ORIENS ANTIQVVS",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00005.jpg",
+        "titel": "ORIGIN OF THE PERSIAN ROBE",
+        "autor": [
+          "Goldman, Bernard"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00006.jpg",
+        "titel": "MORE ADDENDA FROM TOPRAK KALE",
+        "autor": [
+          "BARNETT, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00007.jpg",
+        "titel": "The Siege of Lachish*",
+        "autor": [
+          "BARNETT, R. D."
+        ]
+      }
+    ]
+  },
+  {
     "name": "BoxS4",
     "count": 326,
     "documents": [
@@ -4470,6 +4657,52 @@
         "filename": "boxS2_document_00043.jpg",
         "titel": "KARATEPE",
         "autor": null
+      }
+    ]
+  },
+  {
+    "name": "kirch",
+    "count": 6,
+    "documents": [
+      {
+        "filename": "kirch_document_00001.jpg",
+        "titel": "Acta Calendariographica. Forschungsberichte",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00002.jpg",
+        "titel": "Acta Calendariographica",
+        "autor": null
+      },
+      {
+        "filename": "kirch_document_00003.jpg",
+        "titel": "Acta Calendariographica: Biobibliographisches Handbuch der Kalendermacher",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00004.jpg",
+        "titel": "Astronomie, Literatur, Volksaufklärung: Der Schreibkalender der frühen Neuzeit mit Text- und Bildbeigaben",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00005.jpg",
+        "titel": "Acta Calendariographica Forschungsberichte, Band 9 Biobibliographisches Handbuch der Kalendermacher Teil 1: Einführung und Verzeichnisse",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00006.jpg",
+        "titel": "Acta Calendariographica Forschungsberichte, Band 9 Klaus-Dieter Herbst Biobibliographisches Handbuch der Kalendermacher Teil 2: Kalendermacher Achalm – Heldvader",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
       }
     ]
   }

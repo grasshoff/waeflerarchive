@@ -1,22 +1,26 @@
 {
-  "total_documents": 632,
+  "total_documents": 663,
   "boxes": {
     "Box S": 135,
     "Box22": 78,
     "Box9": 50,
+    "BoxP1": 9,
+    "BoxP1a": 9,
+    "BoxS3": 7,
     "BoxS4": 326,
-    "boxS2": 43
+    "boxS2": 43,
+    "kirch": 6
   },
   "document_types": {
-    "Unknown": 632
+    "Unknown": 663
   },
   "languages": {
-    "de": 340,
-    "en": 170,
-    "it": 27,
+    "de": 364,
+    "en": 173,
+    "it": 29,
     "el": 1,
     "la": 5,
-    "fr": 66,
+    "fr": 68,
     "null": 2,
     "tr/de": 1,
     "tr": 9,
@@ -28,6 +32,6 @@
     "ja": 1,
     "pl": 2
   },
-  "unique_authors": 581,
-  "unique_journals": 222
+  "unique_authors": 592,
+  "unique_journals": 232
 }
