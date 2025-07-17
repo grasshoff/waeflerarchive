@@ -1874,7 +1874,7 @@
   },
   {
     "name": "BoxP1",
-    "count": 9,
+    "count": 53,
     "documents": [
       {
         "filename": "BoxP1_document_00001.jpg",
@@ -1939,12 +1939,306 @@
           "Röllig, Wolfgang",
           "Soden, Wolfram von"
         ]
+      },
+      {
+        "filename": "BoxP1_document_00010.jpg",
+        "titel": "Münchener Studien zur Sprachwissenschaft",
+        "autor": [
+          "Forssman, Bernhard",
+          "Hoffmann, Karl",
+          "Narten, Johanna"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00011.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00012.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00013.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1_document_00014.jpg",
+        "titel": "ANNUAIRE",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1_document_00015.jpg",
+        "titel": "Zu einigen akkadischen Wörtern",
+        "autor": [
+          "Soden, W. von"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00016.jpg",
+        "titel": "TANDEM BONA CAUSA TRIUMPHAT. ZUR GESCHICHTE DES GESAMTWERKES DES ERASMUS VON ROTTERDAM",
+        "autor": [
+          "Reedijk, Cornelis"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00017.jpg",
+        "titel": "ZUM HIEROGLYPHENHETHITISCHEN DORN",
+        "autor": [
+          "Steinherr, Franz"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00018.jpg",
+        "titel": null,
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00019.jpg",
+        "titel": "FESTSCHRIFT HEINRICH OTTEN",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1_document_00020.jpg",
+        "titel": null,
+        "autor": null
+      },
+      {
+        "filename": "BoxP1_document_00021.jpg",
+        "titel": "Reallexikon der Assyriologie und Vorderasiatischen Archäologie",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00022.jpg",
+        "titel": "HANDBUCH DER ORIENTALISTIK  ERSTE ABTEILUNG DER NAHE UND DER MITTLERE OSTEN ZWEITER BAND KEILSCHRIFTFORSCHUNG UND ALTE GESCHICHTE VORDERASIENS ERSTER UND ZWEITER ABSCHNITT GESCHICHTE DER FORSCHUNG, SPRACHE UND LITERATUR LIEFERUNG 2 ALT KLEINASIATISCHE SPRACHEN",
+        "autor": [
+          "Franke, H.",
+          "Gonda, J.",
+          "Hammitsch, H.",
+          "Helck, W.",
+          "Lohuisen-de Leeuw, J. E. van",
+          "Vos, F."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00023.jpg",
+        "titel": "Die Ausgrabungen in Warka 1932/33",
+        "autor": [
+          "Nöldeke, A."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00024.jpg",
+        "titel": "JAHRBUCH FÜR KLEINASIATISCHE FORSCHUNG",
+        "autor": [
+          "Bossert, H. Th.",
+          "Steinherr, Fr."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00025.jpg",
+        "titel": "ALTORIENTALISCHE FORSCHUNGEN VII",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00026.jpg",
+        "titel": "L'URARTU AD ORIENTE DELLO ZAGROS. L'ATTIVITA' DELLA MISSIONE ITALIANA NELL'AZERBAGIAN IRANICO",
+        "autor": [
+          "Wäfler, Walter",
+          "Salvini, Mirjo",
+          "Bagherzadeh, Firouz"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00027.jpg",
+        "titel": "UNA STELE NEOETEA DA MALATYA",
+        "autor": [
+          "Secorella, P.E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00028.jpg",
+        "titel": "SCRITTI IN ONORE DI GIUSEPPE FURLANI",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00029.jpg",
+        "titel": "Die Danaver (Danuna) und die neuen kilikischen Funde",
+        "autor": [
+          "Kretschmer, Paul"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00030.jpg",
+        "titel": "ASIATISCHE STUDIEN · ÉTUDES ASIATIQUES",
+        "autor": [
+          "Horsch, Paul",
+          "Kramers, R. P.",
+          "Regamey, Constantin",
+          "Maag, Victor",
+          "Meier, Fritz",
+          "Seckel, Dietrich"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00031.jpg",
+        "titel": "ASIATISCHE STUDIEN / ÉTUDES ASIATIQUES",
+        "autor": [
+          "Horsch, Paul",
+          "Kramers, R. P.",
+          "Regamey, Constantin"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00032.jpg",
+        "titel": "Baghdader Mitteilungen",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00033.jpg",
+        "titel": "STUDI MICENEI ED EGEO-ANATOLICI",
+        "autor": [
+          "Carruba, Onofrio",
+          "Runda, Anatolico"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00034.jpg",
+        "titel": "KUNST, KULTUR UND GESCHICHTE DER ACHÄMENIDENZEIT UND IHR FORTLEBEN",
+        "autor": [
+          "Koch, Heidemarie",
+          "Mackenzie, D. N."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00035.jpg",
+        "titel": "ARCHAEOLOGICAL STUDIES",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00036.jpg",
+        "titel": "Acta Praehistorica et Archaeologica",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00037.jpg",
+        "titel": "THE HITTITE CONQUEST OF CYPRUS RECONSIDERED",
+        "autor": [
+          "Guterbock, Hans G."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00038.jpg",
+        "titel": "Jahrbuch der Staatlichen Kunstsammlungen in Baden-Württemberg",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00039.jpg",
+        "titel": "KÖLTEPE KAZILARI, 1972. DIE AUSGRABUNGEN AUF DEM KÖLTEPE, 1972 / KÖLTEPE HAYVAN KEMIKLERI. ZU DEN TIERKNOCHENFUNDEN VOM KÖLTEPE",
+        "autor": [
+          "Hauptmann, Harald",
+          "Driesch, Angela von den"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00040.jpg",
+        "titel": "ARCHAEOLOGISCHE MITTEILUNGEN AUS IRAN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00041.jpg",
+        "titel": "Историческое значение хеттского (иероглифического) и финикийского текстов надписей Кара-Тепе",
+        "autor": [
+          "Казанский, Б. В."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00042.jpg",
+        "titel": "THE ARCHAEOLOGICAL HERITAGE OF JORDAN. The Archaeological Periods and Sites (East Bank) Part I",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00043.jpg",
+        "titel": "FIFTY OLD-BABYLONIAN LETTERS FROM HARMAL",
+        "autor": [
+          "Goetze, Albrecht"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00044.jpg",
+        "titel": "ANTike UND UNIVERSALGESCHICHTE",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1_document_00045.jpg",
+        "titel": "LE MIROIR D'AMATERASU",
+        "autor": [
+          "Durand, André"
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00046.jpg",
+        "titel": "TWELVE ASHUR-NASIR-PAL RELIEFS",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00047.jpg",
+        "titel": "AŠŠURNASIRPAL I AND THE WHITE OBELISK",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00048.jpg",
+        "titel": "THE NEO-ASSYRIAN COURT AND ARMY: EVIDENCE FROM THE SCULPTURES",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00049.jpg",
+        "titel": "THE PALACE OF TIGLATH-PILESER III",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00050.jpg",
+        "titel": "MORE DRAWINGS OF ASSURBANIPAL SCULPTURES",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00051.jpg",
+        "titel": "A GLAZED-BRICK PANEL FROM NIMRUD",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00052.jpg",
+        "titel": "CHARLES BELLINO AND THE BEGINNINGS OF ASSYRIOLOGY",
+        "autor": [
+          "BARNETT, R. D."
+        ]
+      },
+      {
+        "filename": "BoxP1_document_00053.jpg",
+        "titel": "LE « BON PASTEUR » A PROPOS D'UNE STATUE DE MARI",
+        "autor": [
+          "Parrot, A."
+        ]
       }
     ]
   },
   {
     "name": "BoxP1a",
-    "count": 9,
+    "count": 53,
     "documents": [
       {
         "filename": "BoxP1a_document_00001.jpg",
@@ -2003,12 +2297,309 @@
           "Röllig, Wolfgang",
           "Soden, Wolfram von"
         ]
+      },
+      {
+        "filename": "BoxP1a_document_00010.jpg",
+        "titel": "Münchener Studien zur Sprachwissenschaft",
+        "autor": [
+          "Forssman, Bernhard",
+          "Hoffmann, Karl",
+          "Narten, Johanna"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00011.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00012.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00013.jpg",
+        "titel": "MITTEILUNGEN DER DEUTSCHEN ORIENT-GESELLSCHAFT ZU BERLIN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00014.jpg",
+        "titel": "ANNUAIRE",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00015.jpg",
+        "titel": "Zu einigen akkadischen Wörtern",
+        "autor": [
+          "Soden, W. von"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00016.jpg",
+        "titel": "TANDEM BONA CAUSA TRIUMPHAT. Zur Geschichte des Gesamtwerkes des Erasmus von Rotterdam",
+        "autor": [
+          "REEDIK, CORNELIS"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00017.jpg",
+        "titel": "ZUM HIEROGLYPHENHETHITISCHEN DORN",
+        "autor": [
+          "Steinherr, Franz"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00018.jpg",
+        "titel": null,
+        "autor": null
+      },
+      {
+        "filename": "BoxP1a_document_00019.jpg",
+        "titel": "Festschrift Heinrich Otten",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00020.jpg",
+        "titel": null,
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00021.jpg",
+        "titel": "Reallexikon der Assyriologie und vorderasiatischen Archäologie, Vierter Band, Sechste/Siebente Lieferung, Hieropolis – Hystaspes",
+        "autor": [
+          "Edzard, D. O.",
+          "Calmeyer, P.",
+          "Moortgat, A.",
+          "Otten, H.",
+          "Röllig, W.",
+          "Soden, W. v.",
+          "Wiseman, D. J.",
+          "Ebeling, E.",
+          "Meissner, B.",
+          "Weidner, E.",
+          "Soden, W. v."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00022.jpg",
+        "titel": "HANDBUCH DER ORIENTALISTIK ERSTE ABTEILUNG DER NAHE UND DER MITTLERE OSTEN ZWEITER BAND KEILSCHRIFTFORSCHUNG UND ALTE GESCHICHTE VORDERASIENS ERSTER UND ZWEITER ABSCHNITT GESCHICHTE DER FORSCHUNG, SPRACHE UND LITERATUR LIEFERUNG 2 ALT KLEINASIATISCHE SPRACHEN",
+        "autor": [
+          "Franke, H.",
+          "Gonda, J.",
+          "Hammitsch, H.",
+          "Helck, W.",
+          "van Lohuizen-de Leeuw, J. E.",
+          "Vos, F."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00023.jpg",
+        "titel": "Die Ausgrabungen in Warka 1932/33",
+        "autor": [
+          "Nöldeke, A."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00024.jpg",
+        "titel": "JAHRBUCH FÜR KLEINASIATISCHE FORSCHUNG",
+        "autor": [
+          "Bossert, H. Th.",
+          "Steinherr, Fr."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00025.jpg",
+        "titel": "ALTORIENTALISCHE FORSCHUNGEN VII",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00026.jpg",
+        "titel": "L'URARTU AD ORIENTE DELLO ZAGROS",
+        "autor": [
+          "Bagherzadeh, Firouz"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00027.jpg",
+        "titel": "UNA STELE NEOETEA DA MALATYA",
+        "autor": [
+          "Secorella, P.E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00028.jpg",
+        "titel": "SCRITTI IN ONORE DI GIUSEPPE FURLANI",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00029.jpg",
+        "titel": "Die Danaver (Danuna) und die neuen kilikischen Funde",
+        "autor": [
+          "Kretschmer, Paul"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00030.jpg",
+        "titel": "ASIATISCHE STUDIEN / ÉTUDES ASIATIQUES",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00031.jpg",
+        "titel": "ASIATISCHE STUDIEN / ÉTUDES ASIATIQUES",
+        "autor": [
+          "Horsch, Paul",
+          "Kramers, R. P.",
+          "Regamey, Constantin"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00032.jpg",
+        "titel": "BAGHDADER MITTEILUNGEN",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00033.jpg",
+        "titel": "STUDI MICENEI ED EGEO-ANATOLICI",
+        "autor": [
+          "Carruba, Onofrio",
+          "Runda, Anatolico"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00034.jpg",
+        "titel": "KUNST, KULTUR UND GESCHICHTE DER ACHÄMENIDENZEIT UND IHR FORTLEBEN",
+        "autor": [
+          "Koch, Heidemarie",
+          "Mackenzie, D. N."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00035.jpg",
+        "titel": "Berytus Archaeological Studies",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00036.jpg",
+        "titel": "Acta Praehistorica et Archaeologica",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00037.jpg",
+        "titel": "The Hittite Conquest of Cyprus Reconsidered",
+        "autor": [
+          "Guterbock, Hans G."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00038.jpg",
+        "titel": "Jahrbuch der Staatlichen Kunstsammlungen in Baden-Württemberg",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00039.jpg",
+        "titel": "KÖRTEPE KAZILARI, 1972 / DIE AUSGRABUNGEN AUF DEM KÖRTEPE, 1972 UND KÖRTEPE HAYVAN KEMİKLERİ / ZU DEN TIERKNOCHENFUNDEN VOM KÖRTEPE",
+        "autor": [
+          "Hauptmann, Harald",
+          "von den Driesch, Angela"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00040.jpg",
+        "titel": "ARCHAEOLOGISCHE MITTEILUNGEN AUS IRAN",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1a_document_00041.jpg",
+        "titel": "Историческое значение хеттского (иероглифического) и финикииского текстов надписи Кара-Тепе",
+        "autor": [
+          "Казанский, Б. В."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00042.jpg",
+        "titel": "THE ARCHAEOLOGICAL HERITAGE OF JORDAN: The Archaeological Periods and Sites (East Bank) Part I",
+        "autor": []
+      },
+      {
+        "filename": "BoxP1a_document_00043.jpg",
+        "titel": "FIFTY OLD-BABYLONIAN LETTERS FROM HARMAL",
+        "autor": [
+          "Goetze, Albrecht"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00044.jpg",
+        "titel": "ANTike UND UNIVERSalgeschichte",
+        "autor": null
+      },
+      {
+        "filename": "BoxP1a_document_00045.jpg",
+        "titel": "LE MIROIR D'AMATERASU",
+        "autor": [
+          "Durand, André"
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00046.jpg",
+        "titel": "TWELVE ASHUR-NASIR-PAL RELIEFS",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00047.jpg",
+        "titel": "AŠŠURNASIRPAL I AND THE WHITE OBELISK",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00048.jpg",
+        "titel": "THE NEO-ASSYRIAN COURT AND ARMY: EVIDENCE FROM THE SCULPTURES",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00049.jpg",
+        "titel": "THE PALACE OF TIGLATH-PILESER III",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00050.jpg",
+        "titel": "MORE DRAWINGS OF ASSURBANIPAL SCULPTURES",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00051.jpg",
+        "titel": "A GLAZED-BRICK PANEL FROM NIMRUD",
+        "autor": [
+          "Reade, J. E."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00052.jpg",
+        "titel": "CHARLES BELLINO AND THE BEGINNINGS OF ASSYRIOLOGY",
+        "autor": [
+          "Barnett, R. D."
+        ]
+      },
+      {
+        "filename": "BoxP1a_document_00053.jpg",
+        "titel": "LE « BON PASTEUR » À PROPOS D'UNE STATUE DE MARI",
+        "autor": [
+          "Parrot, A."
+        ]
       }
     ]
   },
   {
     "name": "BoxS3",
-    "count": 7,
+    "count": 40,
     "documents": [
       {
         "filename": "BoxS3_document_00001.jpg",
@@ -2055,6 +2646,227 @@
         "titel": "The Siege of Lachish*",
         "autor": [
           "BARNETT, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00008.jpg",
+        "titel": null,
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00009.jpg",
+        "titel": "THE URARTIAN CEMETRY AT I G DY R",
+        "autor": [
+          "BARNETT, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00010.jpg",
+        "titel": "STUDI MICENEI ED EGEO-ANATOLICI",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00011.jpg",
+        "titel": "ARCHAEOLOGISCHE MITTEILUNGEN AUS IRAN",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00012.jpg",
+        "titel": "ARCHAEOLOGISCHE MITTEILUNGEN AUS IRAN",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00013.jpg",
+        "titel": "HAMATH AND NIMRUD: SHELL FRAGMENTS FROM HAMATH AND THE PROVENANCE OF THE NIMRUD IVORIES",
+        "autor": [
+          "Barnett, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00014.jpg",
+        "titel": "TWO CHANCE FINDS FROM UR",
+        "autor": [
+          "Barnett, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00015.jpg",
+        "titel": "PERSEPOLIS",
+        "autor": [
+          "BARNETT, R. D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00016.jpg",
+        "titel": "A SURVEY IN NORTHEASTERN SYRIA",
+        "autor": [
+          "Meijer, Diederik J. W."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00017.jpg",
+        "titel": "CONTRIBUTI E MATERIALI DI ARCHEOLOGIA ORIENTALE VI (1996)",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00018.jpg",
+        "titel": "Eine hethitische Hieroglyphen-Inschrift am Löwentor von Boğazköy",
+        "autor": [
+          "Neve, Peter"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00019.jpg",
+        "titel": "TELL BRAK AND NAGAR*",
+        "autor": [
+          "Matthews, Donald",
+          "Eidem, Jesper"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00020.jpg",
+        "titel": "Karabely / Nomina des Hitti...",
+        "autor": [
+          "Unbekannt, Unbekannt"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00021.jpg",
+        "titel": null,
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00022.jpg",
+        "titel": "ISTANBULER MITTEILUNGEN",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00023.jpg",
+        "titel": "AMERICAN JOURNAL OF ARCHAEOLOGY",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00024.jpg",
+        "titel": "AMERICAN JOURNAL OF ARCHAEOLOGY",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00025.jpg",
+        "titel": "DIE RELIEFS VON AŠŠURANASIRAPLI II. DIE SAMMLUNGEN AUSSERHALB DES IRAK",
+        "autor": [
+          "Meuszyński, Janusz"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00026.jpg",
+        "titel": "DIE NEUA SYRISCHEN FELSRELIEFS VON MALTAI (NORD-IRAK)",
+        "autor": [
+          "Boehmer, Rainer Michael"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00027.jpg",
+        "titel": null,
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00028.jpg",
+        "titel": "AN INSCRIBED WEIGHT FROM TELL SWEYHAT, SYRIA",
+        "autor": [
+          "Holland, T. A."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00029.jpg",
+        "titel": "Festschrift",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00030.jpg",
+        "titel": "Isin – Išān Bahriyāt I",
+        "autor": [
+          "Ayoud, S. A. S.",
+          "Becker, H.",
+          "Boehmer, R. M.",
+          "Boessneck, J.",
+          "Duda, D.",
+          "Edzard, S. C.",
+          "Fritz, I.",
+          "Fuhr, M. R.",
+          "Hoh, B.",
+          "Hrouda, B.",
+          "Walker, C. B. F.",
+          "Wilcke, C.",
+          "Ziegelmayer, G.",
+          "Wolff, C.",
+          "Stupp, K.",
+          "Hrouda, B."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00031.jpg",
+        "titel": "Zur MOORTGAT-Festschrift Troja – Philister – Achämeniden*",
+        "autor": [
+          "Nylander, Carl"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00032.jpg",
+        "titel": "ARCHÄOLOGISCHE MITTEILUNGEN AUS IRAN",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00033.jpg",
+        "titel": "Seals and Sealing in the Ancient Near East",
+        "autor": [
+          "Buccellati, Giorgio",
+          "Gibson, McGuire",
+          "Biggs, Robert D."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00034.jpg",
+        "titel": "Deutsche Grabungen und Forschungen in der Ruinenstadt Resafa in Syrien",
+        "autor": [
+          "Karnapp, Walter"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00035.jpg",
+        "titel": "bild der wissenschaft",
+        "autor": null
+      },
+      {
+        "filename": "BoxS3_document_00036.jpg",
+        "titel": "ABKÜRZUNGSVERZEICHNISSE UND RICHTLINIEN FÜR DIE PUBLIKATIONEN DES DEUTSCHEN ARCHÄOLOGISCHEN INSTITUTS",
+        "autor": []
+      },
+      {
+        "filename": "BoxS3_document_00037.jpg",
+        "titel": "UN NUOVO SIGILLO ETEO GEROGLIFICO DALL'ASLANTEPE DI MALATYA",
+        "autor": [
+          "Meriggi, P."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00038.jpg",
+        "titel": "DAS ROLLSIEGEL IM PRÄDYNASTISCHEN ÄGYPTEN",
+        "autor": [
+          "Böehmer, Rainer Michael"
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00039.jpg",
+        "titel": "NOCHMALS ZU IŠUWA",
+        "autor": [
+          "Klengel, H."
+        ]
+      },
+      {
+        "filename": "BoxS3_document_00040.jpg",
+        "titel": "WRONGDOING AND ITS SANCTIONS ON \"CRIMINAL\" AND \"CIVIL\" LAW IN THE OLD BABYLONIAN PERIOD*",
+        "autor": [
+          "Renger, Johannes"
         ]
       }
     ]
@@ -4662,7 +5474,7 @@
   },
   {
     "name": "kirch",
-    "count": 6,
+    "count": 18,
     "documents": [
       {
         "filename": "kirch_document_00001.jpg",
@@ -4703,6 +5515,82 @@
         "autor": [
           "Herbst, Klaus-Dieter"
         ]
+      },
+      {
+        "filename": "kirch_document_00007.jpg",
+        "titel": "Acta Calendariographica Forschungberichte, Band 10",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00008.jpg",
+        "titel": "Acta Calendariographica Kalenderreihen",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00009.jpg",
+        "titel": "Acta Calendariographica: Kalenderreihen Band 1.6",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00010.jpg",
+        "titel": "Finster sen-Calende ür 1676",
+        "autor": [
+          "Sturm, Johann Christoph"
+        ]
+      },
+      {
+        "filename": "kirch_document_00011.jpg",
+        "titel": "Acta Calendariographica Forschungberichte Band 6",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00012.jpg",
+        "titel": "Acta Calendariographica Forschungberichte Bard 7",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00013.jpg",
+        "titel": "Bibliographische Handbuch der Kalendermacher, Teil 4: Kalendermacher Reissacher – Zorawsky",
+        "autor": [
+          "Herbst, Klaus-Dieter"
+        ]
+      },
+      {
+        "filename": "kirch_document_00014.jpg",
+        "titel": "Acta Calendariographica. Forschungsberichte, Band 8",
+        "autor": [
+          "Groß, Anja"
+        ]
+      },
+      {
+        "filename": "kirch_document_00015.jpg",
+        "titel": "Acta Calendariographica Kalenderreihen Band 3.1",
+        "autor": []
+      },
+      {
+        "filename": "kirch_document_00016.jpg",
+        "titel": "Acta Calendariographica Kalenderreihen Band 1.5",
+        "autor": []
+      },
+      {
+        "filename": "kirch_document_00017.jpg",
+        "titel": "Acta Calendariographica Kalenderreihen",
+        "autor": []
+      },
+      {
+        "filename": "kirch_document_00018.jpg",
+        "titel": "Acta Calendariographica. Volksaei-klarerische Reformkalender des 18. Jahrhunderts",
+        "autor": []
       }
     ]
   }
