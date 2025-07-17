@@ -526,7 +526,6 @@
             const box = doc.box || '';
             const filename = doc.filename || "";
             
-    /const box = doc.box || .*;/a
             // Extract document identifier from filename (e.g., "BoxS_document_00001.jpg" -> "BoxS--document-00001")
             const documentId = filename.replace(".jpg", "").replace(/_/g, "--").replace(/document--/, "document-");
 
