@@ -21,50 +21,50 @@
         .header {
             background: linear-gradient(135deg, #2c3e50, #3498db);
             color: white;
-            padding: 2rem 0;
+            padding: 1.5rem 0;
             text-align: center;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
         }
 
         .header h1 {
-            font-size: 2.5rem;
-            margin-bottom: 0.5rem;
+            font-size: 2rem;
+            margin-bottom: 0.3rem;
             font-weight: 300;
         }
 
         .header p {
-            font-size: 1.1rem;
+            font-size: 1rem;
             opacity: 0.9;
         }
 
         .container {
             max-width: 1200px;
             margin: 0 auto;
-            padding: 2rem;
+            padding: 1rem;
         }
 
         .stats-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-            gap: 1.5rem;
-            margin: 2rem 0;
+            grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+            gap: 1rem;
+            margin: 1rem 0;
         }
 
         .stat-card {
             background: white;
-            padding: 1.5rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            padding: 1rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
             text-align: center;
-            transition: transform 0.3s ease;
+            transition: transform 0.2s ease;
         }
 
         .stat-card:hover {
-            transform: translateY(-5px);
+            transform: translateY(-2px);
         }
 
         .stat-number {
-            font-size: 2.5rem;
+            font-size: 1.8rem;
             font-weight: bold;
             color: #3498db;
             display: block;
@@ -72,24 +72,24 @@
 
         .stat-label {
             color: #666;
-            margin-top: 0.5rem;
-            font-size: 0.9rem;
+            margin-top: 0.3rem;
+            font-size: 0.8rem;
         }
 
         .search-section {
             background: white;
-            padding: 2rem;
-            border-radius: 10px;
-            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
-            margin: 2rem 0;
+            padding: 1.2rem;
+            border-radius: 6px;
+            box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+            margin: 1rem 0;
         }
 
         .search-box {
             width: 100%;
-            padding: 1rem;
-            border: 2px solid #ddd;
-            border-radius: 8px;
-            font-size: 1rem;
+            padding: 0.75rem;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 0.95rem;
             margin-bottom: 1rem;
         }
 
@@ -100,38 +100,41 @@
 
         .filters {
             display: flex;
-            gap: 1rem;
-            margin: 1rem 0;
+            gap: 0.8rem;
+            margin: 0.8rem 0;
             flex-wrap: wrap;
+            align-items: center;
         }
 
         .filter-select {
+            padding: 0.6rem;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 0.9rem;
+            min-width: 120px;
+            background: white;
+        }
 
         .download-btn {
             background: #27ae60;
             color: white;
             border: none;
-            padding: 0.5rem 1rem;
-            border-radius: 5px;
+            padding: 0.6rem 0.8rem;
+            border-radius: 4px;
             cursor: pointer;
-            font-size: 0.9rem;
-            transition: background 0.3s ease;
+            font-size: 0.85rem;
+            transition: background 0.2s ease;
         }
 
         .download-btn:hover {
             background: #229954;
-        }
-            padding: 0.5rem;
-            border: 1px solid #ddd;
-            border-radius: 5px;
-            min-width: 150px;
         }
 
         .documents-grid {
             display: grid;
             grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
             gap: 1rem;
-            margin: 2rem 0;
+            margin: 1rem 0;
         }
 
         .document-card {
