@@ -334,8 +334,8 @@
         function escapeCSV(value) {
             if (!value) return "";
             const stringValue = String(value);
-            if (stringValue.includes(",") || stringValue.includes(""") || stringValue.includes("\n")) {
-                return "\"" + stringValue.replace(/"/g, """") + """;
+            if (stringValue.includes(",") || stringValue.includes("\"") || stringValue.includes("\n")) {
+                return "\"" + stringValue.replace(/"/g, "\"\"") + "\"";
             }
             return stringValue;
         }
@@ -354,7 +354,7 @@
                     escapeCSV(doc.autor),
                     escapeCSV(doc.zeitschrift),
                     escapeCSV(doc.jahr),
-                    escapeCSV(doc.typ),
+                    escapeCSV(doc.document_type || doc.typ),
                     escapeCSV(doc.sprache)
                 ];
                 csvContent.push(row.join(","));
@@ -457,7 +457,7 @@
 
             // Populate type filter
             const typeFilter = document.getElementById('type-filter');
-            const types = [...new Set(allDocuments.map(doc => doc.typ))].filter(type => type).sort();
+            const types = [...new Set(allDocuments.map(doc => doc.document_type || doc.typ))].filter(type => type).sort();
             types.forEach(type => {
                 const option = document.createElement('option');
                 option.value = type;
@@ -493,7 +493,7 @@
                 const matchesBox = !selectedBox || doc.box === selectedBox;
 
                 // Type filter
-                const matchesType = !selectedType || doc.typ === selectedType;
+                const matchesType = !selectedType || (doc.document_type || doc.typ) === selectedType;
 
                 // Language filter
                 const matchesLanguage = !selectedLanguage || doc.sprache === selectedLanguage;
@@ -518,10 +518,10 @@
         function createDocumentCard(doc) {
             const imagePath = `${dataPath}/images/${doc.filename || 'placeholder.jpg'}`;
             const title = doc.titel || 'Unbekannter Titel';
-            const author = doc.autor || 'Unbekannter Autor';
+            const author = Array.isArray(doc.autor) ? doc.autor.join(', ') : (doc.autor || 'Unbekannter Autor');
             const journal = doc.zeitschrift || '';
             const year = doc.jahr || '';
-            const type = doc.typ || '';
+            const type = doc.document_type || doc.typ || '';
             const language = doc.sprache || '';
             const box = doc.box || '';
             const filename = doc.filename || "";
