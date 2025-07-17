@@ -106,6 +106,21 @@
         }
 
         .filter-select {
+
+        .download-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #229954;
+        }
             padding: 0.5rem;
             border: 1px solid #ddd;
             border-radius: 5px;
@@ -142,6 +157,18 @@
 
         .document-content {
             padding: 1.5rem;
+        }
+
+        .document-id {
+            font-size: 1.2rem;
+            font-weight: 700;
+            color: #2c3e50;
+            background: #f8f9fa;
+            padding: 0.4rem 0.8rem;
+            border-radius: 6px;
+            margin-bottom: 0.8rem;
+            font-family: 'Courier New', monospace;
+            border-left: 4px solid #3498db;
         }
 
         .document-title {
@@ -205,6 +232,21 @@
             }
             
             .filter-select {
+
+        .download-btn {
+            background: #27ae60;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 0.9rem;
+            transition: background 0.3s ease;
+        }
+
+        .download-btn:hover {
+            background: #229954;
+        }
                 min-width: 100%;
             }
             
@@ -244,7 +286,9 @@
             <input type="text" id="search-input" class="search-box" placeholder="Suche nach Titel, Autor, Zeitschrift...">
             
             <div class="filters">
+                <button id="download-all-csv" class="download-btn">Download All CSV</button>
                 <select id="box-filter" class="filter-select">
+                <button id="download-box-csv" class="download-btn" style="display:none;">Download Box CSV</button>
                     <option value="">Alle Boxen</option>
                 </select>
                 
@@ -286,11 +330,79 @@
             setupEventListeners();
         });
 
+        // CSV Export Functions
+        function escapeCSV(value) {
+            if (!value) return "";
+            const stringValue = String(value);
+            if (stringValue.includes(",") || stringValue.includes(""") || stringValue.includes("\n")) {
+                return "\"" + stringValue.replace(/"/g, """") + """;
+            }
+            return stringValue;
+        }
+
+        function generateCSV(documents, filename) {
+            const headers = ["Document ID", "Box", "Title", "Author", "Journal", "Year", "Type", "Language"];
+            const csvContent = [headers.join(",")];
+            
+            documents.forEach(doc => {
+                const filename = doc.filename || "";
+                const documentId = filename.replace(".jpg", "").replace(/_/g, "--").replace(/document--/, "document-");
+                const row = [
+                    escapeCSV(documentId),
+                    escapeCSV(doc.box),
+                    escapeCSV(doc.titel),
+                    escapeCSV(doc.autor),
+                    escapeCSV(doc.zeitschrift),
+                    escapeCSV(doc.jahr),
+                    escapeCSV(doc.typ),
+                    escapeCSV(doc.sprache)
+                ];
+                csvContent.push(row.join(","));
+            });
+            
+            const blob = new Blob([csvContent.join("\n")], { type: "text/csv;charset=utf-8;" });
+            const link = document.createElement("a");
+            const url = URL.createObjectURL(blob);
+            link.setAttribute("href", url);
+            link.setAttribute("download", filename);
+            link.style.visibility = "hidden";
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+
+        function downloadAllCSV() {
+            generateCSV(allDocuments, "waefler_collection_all.csv");
+        }
+
+        function downloadBoxCSV() {
+            const selectedBox = document.getElementById("box-filter").value;
+            if (!selectedBox) return;
+            
+            const boxDocuments = allDocuments.filter(doc => doc.box === selectedBox);
+            const boxName = selectedBox.replace(/\s+/g, "_").toLowerCase();
+            generateCSV(boxDocuments, `waefler_collection_${boxName}.csv`);
+        }
+
         function setupEventListeners() {
             document.getElementById('search-input').addEventListener('input', filterDocuments);
             document.getElementById('box-filter').addEventListener('change', filterDocuments);
             document.getElementById('type-filter').addEventListener('change', filterDocuments);
             document.getElementById('language-filter').addEventListener('change', filterDocuments);
+            
+            document.getElementById('download-all-csv').addEventListener('click', downloadAllCSV);
+            document.getElementById('download-box-csv').addEventListener('click', downloadBoxCSV);
+            
+            // Show/hide box download button based on selection
+            document.getElementById('box-filter').addEventListener('change', function() {
+                const downloadBoxBtn = document.getElementById('download-box-csv');
+                if (this.value) {
+                    downloadBoxBtn.style.display = 'inline-block';
+                    downloadBoxBtn.textContent = `Download ${this.value} CSV`;
+                } else {
+                    downloadBoxBtn.style.display = 'none';
+                }
+            });
         }
 
         async function loadInitialData() {
@@ -412,12 +524,19 @@
             const type = doc.typ || '';
             const language = doc.sprache || '';
             const box = doc.box || '';
+            const filename = doc.filename || "";
+            
+    /const box = doc.box || .*;/a
+            // Extract document identifier from filename (e.g., "BoxS_document_00001.jpg" -> "BoxS--document-00001")
+            const documentId = filename.replace(".jpg", "").replace(/_/g, "--").replace(/document--/, "document-");
+
 
             return `
                 <div class="document-card">
                     <img src="${imagePath}" alt="${title}" class="document-image" 
                          onerror="this.src='${dataPath}/images/placeholder.jpg'">
                     <div class="document-content">
+                        <div class="document-id">${documentId}</div>
                         <div class="document-title">${title}</div>
                         <div class="document-meta">
                             ${author ? `<span><strong>Autor:</strong> ${author}</span>` : ''}
