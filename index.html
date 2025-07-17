@@ -222,17 +222,6 @@
             margin-top: 3rem;
         }
 
-        @media (max-width: 768px) {
-            .container {
-                padding: 1rem;
-            }
-            
-            .filters {
-                flex-direction: column;
-            }
-            
-            .filter-select {
-
         .download-btn {
             background: #27ae60;
             color: white;
@@ -247,11 +236,89 @@
         .download-btn:hover {
             background: #229954;
         }
+
+        .pagination-info {
+            text-align: center;
+            margin: 1.5rem 0 1rem 0;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .pagination-controls {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+            margin: 1.5rem 0;
+            flex-wrap: wrap;
+        }
+
+        .pagination-btn {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.8rem 1.2rem;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.95rem;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            min-width: 100px;
+        }
+
+        .pagination-btn:hover:not(:disabled) {
+            background: #2980b9;
+            transform: translateY(-1px);
+        }
+
+        .pagination-btn:disabled {
+            background: #bdc3c7;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .page-info {
+            font-size: 1rem;
+            font-weight: 600;
+            color: #2c3e50;
+            background: #f8f9fa;
+            padding: 0.8rem 1.5rem;
+            border-radius: 6px;
+            border: 2px solid #e9ecef;
+            min-width: 200px;
+            text-align: center;
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1rem;
+            }
+            
+            .filters {
+                flex-direction: column;
+            }
+            
+            .stat-card {
                 min-width: 100%;
             }
             
             .documents-grid {
                 grid-template-columns: 1fr;
+            }
+
+            .pagination-controls {
+                gap: 0.5rem;
+            }
+
+            .pagination-btn {
+                padding: 0.6rem 0.8rem;
+                font-size: 0.85rem;
+                min-width: 80px;
+            }
+
+            .page-info {
+                min-width: 150px;
+                padding: 0.6rem 1rem;
             }
         }
     </style>
@@ -305,8 +372,31 @@
         <div id="loading" class="loading">Lade Dokumente...</div>
         <div id="error-message" class="error" style="display: none;"></div>
         
+        <!-- Pagination Info -->
+        <div id="pagination-info" class="pagination-info" style="display: none;">
+            <span id="results-count"></span>
+        </div>
+        
+        <!-- Pagination Controls -->
+        <div id="pagination-controls" class="pagination-controls" style="display: none;">
+            <button id="first-page" class="pagination-btn">⏮ Erste</button>
+            <button id="prev-page" class="pagination-btn">⬅ Zurück</button>
+            <span id="page-info" class="page-info"></span>
+            <button id="next-page" class="pagination-btn">Weiter ➡</button>
+            <button id="last-page" class="pagination-btn">Letzte ⏭</button>
+        </div>
+        
         <div id="documents-container" class="documents-grid">
             <!-- Documents will be loaded here -->
+        </div>
+        
+        <!-- Pagination Controls (bottom) -->
+        <div id="pagination-controls-bottom" class="pagination-controls" style="display: none;">
+            <button id="first-page-bottom" class="pagination-btn">⏮ Erste</button>
+            <button id="prev-page-bottom" class="pagination-btn">⬅ Zurück</button>
+            <span id="page-info-bottom" class="page-info"></span>
+            <button id="next-page-bottom" class="pagination-btn">Weiter ➡</button>
+            <button id="last-page-bottom" class="pagination-btn">Letzte ⏭</button>
         </div>
     </div>
 
@@ -323,6 +413,9 @@
         // Global variables
         let allDocuments = [];
         let allBoxes = [];
+        let filteredDocuments = [];
+        let currentPage = 1;
+        const documentsPerPage = 20;
 
         // Load data on page load
         document.addEventListener('DOMContentLoaded', function() {
@@ -422,7 +515,10 @@
 
                 updateStatistics();
                 populateFilters();
-                displayDocuments(allDocuments);
+                filteredDocuments = allDocuments;
+                currentPage = 1;
+                displayCurrentPage();
+                setupPagination();
                 
                 document.getElementById('loading').style.display = 'none';
                 
@@ -482,7 +578,7 @@
             const selectedType = document.getElementById('type-filter').value;
             const selectedLanguage = document.getElementById('language-filter').value;
 
-            const filtered = allDocuments.filter(doc => {
+            filteredDocuments = allDocuments.filter(doc => {
                 // Search filter
                 const matchesSearch = !searchTerm || 
                     (doc.titel && doc.titel.toLowerCase().includes(searchTerm)) ||
@@ -501,18 +597,133 @@
                 return matchesSearch && matchesBox && matchesType && matchesLanguage;
             });
 
-            displayDocuments(filtered);
+            currentPage = 1; // Reset to first page when filtering
+            displayCurrentPage();
+            updatePaginationControls();
         }
 
-        function displayDocuments(documents) {
+        function displayCurrentPage() {
             const container = document.getElementById('documents-container');
             
-            if (documents.length === 0) {
+            if (!filteredDocuments || filteredDocuments.length === 0) {
                 container.innerHTML = '<div class="loading">Keine Dokumente gefunden.</div>';
+                hidePaginationControls();
                 return;
             }
 
-            container.innerHTML = documents.map(doc => createDocumentCard(doc)).join('');
+            const startIndex = (currentPage - 1) * documentsPerPage;
+            const endIndex = Math.min(startIndex + documentsPerPage, filteredDocuments.length);
+            const documentsToShow = filteredDocuments.slice(startIndex, endIndex);
+
+            container.innerHTML = documentsToShow.map(doc => createDocumentCard(doc)).join('');
+            
+            showPaginationControls();
+            updatePaginationInfo();
+        }
+
+        function setupPagination() {
+            // Set up event listeners for pagination buttons
+            const buttons = [
+                { id: 'first-page', action: () => goToPage(1) },
+                { id: 'prev-page', action: () => goToPage(currentPage - 1) },
+                { id: 'next-page', action: () => goToPage(currentPage + 1) },
+                { id: 'last-page', action: () => goToPage(Math.ceil(filteredDocuments.length / documentsPerPage)) },
+                { id: 'first-page-bottom', action: () => goToPage(1) },
+                { id: 'prev-page-bottom', action: () => goToPage(currentPage - 1) },
+                { id: 'next-page-bottom', action: () => goToPage(currentPage + 1) },
+                { id: 'last-page-bottom', action: () => goToPage(Math.ceil(filteredDocuments.length / documentsPerPage)) }
+            ];
+
+            buttons.forEach(button => {
+                const element = document.getElementById(button.id);
+                if (element) {
+                    element.addEventListener('click', button.action);
+                }
+            });
+
+            updatePaginationControls();
+        }
+
+        function goToPage(pageNumber) {
+            const totalPages = Math.ceil(filteredDocuments.length / documentsPerPage);
+            
+            if (pageNumber < 1 || pageNumber > totalPages) return;
+            
+            currentPage = pageNumber;
+            displayCurrentPage();
+            updatePaginationControls();
+            
+            // Scroll to top of documents
+            document.getElementById('documents-container').scrollIntoView({ behavior: 'smooth' });
+        }
+
+        function updatePaginationControls() {
+            const totalPages = Math.ceil(filteredDocuments.length / documentsPerPage);
+            
+            // Update button states
+            const updateButton = (id, disabled) => {
+                const button = document.getElementById(id);
+                if (button) button.disabled = disabled;
+            };
+
+            updateButton('first-page', currentPage === 1);
+            updateButton('prev-page', currentPage === 1);
+            updateButton('next-page', currentPage === totalPages);
+            updateButton('last-page', currentPage === totalPages);
+            updateButton('first-page-bottom', currentPage === 1);
+            updateButton('prev-page-bottom', currentPage === 1);
+            updateButton('next-page-bottom', currentPage === totalPages);
+            updateButton('last-page-bottom', currentPage === totalPages);
+
+            // Update page info
+            const pageInfoText = `Seite ${currentPage} von ${totalPages}`;
+            const pageInfo = document.getElementById('page-info');
+            const pageInfoBottom = document.getElementById('page-info-bottom');
+            if (pageInfo) pageInfo.textContent = pageInfoText;
+            if (pageInfoBottom) pageInfoBottom.textContent = pageInfoText;
+        }
+
+        function updatePaginationInfo() {
+            const startIndex = (currentPage - 1) * documentsPerPage + 1;
+            const endIndex = Math.min(currentPage * documentsPerPage, filteredDocuments.length);
+            const total = filteredDocuments.length;
+            
+            const infoText = `Zeige ${startIndex}-${endIndex} von ${total} Dokumenten`;
+            const resultsCount = document.getElementById('results-count');
+            if (resultsCount) resultsCount.textContent = infoText;
+        }
+
+        function showPaginationControls() {
+            const totalPages = Math.ceil(filteredDocuments.length / documentsPerPage);
+            const shouldShow = totalPages > 1;
+            
+            const controls = [
+                'pagination-info',
+                'pagination-controls', 
+                'pagination-controls-bottom'
+            ];
+            
+            controls.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.style.display = shouldShow ? 'block' : 'none';
+                }
+            });
+        }
+
+        function hidePaginationControls() {
+            const controls = [
+                'pagination-info',
+                'pagination-controls', 
+                'pagination-controls-bottom'
+            ];
+            
+            controls.forEach(id => {
+                const element = document.getElementById(id);
+                if (element) {
+                    element.style.display = 'none';
+                }
+            });
         }
 
         function createDocumentCard(doc) {
