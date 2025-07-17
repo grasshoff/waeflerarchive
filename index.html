@@ -520,8 +520,9 @@
             
             // Escape HTML to prevent XSS and template literal issues
             function escapeHtml(unsafe) {
-                if (!unsafe) return '';
-                return unsafe
+                if (!unsafe && unsafe !== 0) return '';
+                const str = String(unsafe);
+                return str
                     .replace(/&/g, "&amp;")
                     .replace(/</g, "&lt;")
                     .replace(/>/g, "&gt;")
@@ -531,7 +532,8 @@
             }
             
             const title = escapeHtml(doc.titel || 'Unbekannter Titel');
-            const author = escapeHtml(Array.isArray(doc.autor) ? doc.autor.join(', ') : (doc.autor || 'Unbekannter Autor'));
+            const authorValue = Array.isArray(doc.autor) ? doc.autor.join(', ') : (doc.autor || 'Unbekannter Autor');
+            const author = escapeHtml(authorValue);
             const journal = escapeHtml(doc.zeitschrift || '');
             const year = escapeHtml(doc.jahr || '');
             const type = escapeHtml(doc.document_type || doc.typ || '');
