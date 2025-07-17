@@ -517,18 +517,30 @@
 
         function createDocumentCard(doc) {
             const imagePath = `${dataPath}/images/${doc.filename || 'placeholder.jpg'}`;
-            const title = doc.titel || 'Unbekannter Titel';
-            const author = Array.isArray(doc.autor) ? doc.autor.join(', ') : (doc.autor || 'Unbekannter Autor');
-            const journal = doc.zeitschrift || '';
-            const year = doc.jahr || '';
-            const type = doc.document_type || doc.typ || '';
-            const language = doc.sprache || '';
-            const box = doc.box || '';
+            
+            // Escape HTML to prevent XSS and template literal issues
+            function escapeHtml(unsafe) {
+                if (!unsafe) return '';
+                return unsafe
+                    .replace(/&/g, "&amp;")
+                    .replace(/</g, "&lt;")
+                    .replace(/>/g, "&gt;")
+                    .replace(/"/g, "&quot;")
+                    .replace(/'/g, "&#039;")
+                    .replace(/`/g, "&#96;");
+            }
+            
+            const title = escapeHtml(doc.titel || 'Unbekannter Titel');
+            const author = escapeHtml(Array.isArray(doc.autor) ? doc.autor.join(', ') : (doc.autor || 'Unbekannter Autor'));
+            const journal = escapeHtml(doc.zeitschrift || '');
+            const year = escapeHtml(doc.jahr || '');
+            const type = escapeHtml(doc.document_type || doc.typ || '');
+            const language = escapeHtml(doc.sprache || '');
+            const box = escapeHtml(doc.box || '');
             const filename = doc.filename || "";
             
             // Extract document identifier from filename (e.g., "BoxS_document_00001.jpg" -> "BoxS--document-00001")
             const documentId = filename.replace(".jpg", "").replace(/_/g, "--").replace(/document--/, "document-");
-
 
             return `
                 <div class="document-card">
